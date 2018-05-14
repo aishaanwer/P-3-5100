@@ -54,7 +54,7 @@ function ready(error, name) {
     .enter().append("path")
       .attr("d", path)
       	.style("fill", function(d) {
-		return color(d.id); // get rate value for property matching data ID
+		return color(d.name); // get rate value for property matching data ID
 		// pass rate value to color function, return color based on domain and range
 	})
     
