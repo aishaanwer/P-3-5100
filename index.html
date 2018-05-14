@@ -18,14 +18,11 @@
 </style>
 </head>  
 <body>
-    <p>  Hi there</p>
 <script> 
-var width = 720,
-    height = 500;
+var width = 1000,
+    height = 1000;
 
-var projection = d3.geoAlbers()
-    .scale(1000)
-    .translate([width / 2, height / 2]);
+var projection = d3.geoAlbers();
 
 var path = d3.geoPath()
     .projection(projection);
@@ -35,9 +32,19 @@ var svg = d3.select("body").append("svg")
     .attr("height", height);
     
  d3.queue()
-    .defer(d3.json, "caCountiesTopo.json") // Load US Counties
-    .await(ready); // Run 'ready' when JSONs are loaded    
+    .defer(d3.json, "caCountiesTopo.json") 
+    .defer(d3.csv, "wages.csv")
+    .await(ready);   
 
+    var county = {}; // Create empty object for holding dataset
+  wages.forEach(function(d) {
+    wageByID[d.id] = +d.rate; // Create property for each ID, give it value from rate
+  });
+  
+ var color = d3.scaleThreshold()
+    .domain([0.02, 0.04, 0.06, 0.08, 0.10])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+    
 function ready(error, name) {
   if (error) throw error;
      svg.append("g")
@@ -46,7 +53,11 @@ function ready(error, name) {
       .data(topojson.feature(name, name.objects.subunits).features) // Bind TopoJSON data elements
     .enter().append("path")
       .attr("d", path)
-      .style("fill", "white")
+      	.style("fill", function(d) {
+		return color(d.id); // get rate value for property matching data ID
+		// pass rate value to color function, return color based on domain and range
+	})
+    
       .style("stroke", "black");
     
 }
