@@ -1,1 +1,57 @@
-//interactive map
+<html>
+<head>
+    <title>INFO 3300 - Data-driven Web Applications</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3-queue.v2.min.js"></script>
+
+<style>
+    path {
+      fill: none;
+      stroke: #000;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+    }
+</style>
+</head>  
+<body>
+    <p>  Hi there</p>
+<script> 
+var width = 720,
+    height = 500;
+
+var projection = d3.geoAlbers()
+    .scale(1000)
+    .translate([width / 2, height / 2]);
+
+var path = d3.geoPath()
+    .projection(projection);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+    
+ d3.queue()
+    .defer(d3.json, "caCountiesTopo.json") // Load US Counties
+    .await(ready); // Run 'ready' when JSONs are loaded    
+
+function ready(error, name) {
+  if (error) throw error;
+     svg.append("g")
+      .attr("class", "counties")
+    .selectAll("path")
+      .data(topojson.feature(name, name.objects.subunits).features) // Bind TopoJSON data elements
+    .enter().append("path")
+      .attr("d", path)
+      .style("fill", "white")
+      .style("stroke", "black");
+    
+}
+
+    
+</script>        
+</body>    
+</html>
