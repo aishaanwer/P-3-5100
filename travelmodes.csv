@@ -1,598 +1,598 @@
-R State FIPS Code,R County FIPS Code,R State Name,R County Name,R Metropolitan Statistical Area FIPS Code,R  Metropolitan Statistical Area of County,State FIPS Code,County FIPS Code,State Name,County Name,Metropolitan Statistical Area FIPS Code,Metropolitan Statistical Area of County,Travel Mode,Workers in Commuting Flow
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,303748
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,41827
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,32379
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,78815
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,32219
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3855
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,2065
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,874
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3387
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,601
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,80
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,42
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,277
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,88
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,21529
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8989
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,44744
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,2297
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,55358
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,9511
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,2799
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,712
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,692
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,59
-6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,35
-6,7,California,Butte County,17020,"Chico, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,129
-6,7,California,Butte County,17020,"Chico, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,71
-6,7,California,Butte County,17020,"Chico, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,17
-6,7,California,Butte County,17020,"Chico, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,124
-6,7,California,Butte County,17020,"Chico, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1
-6,7,California,Butte County,17020,"Chico, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,43
-6,7,California,Butte County,17020,"Chico, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,13
-6,7,California,Butte County,17020,"Chico, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,56
-6,7,California,Butte County,17020,"Chico, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,137
-6,7,California,Butte County,17020,"Chico, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,47
-6,7,California,Butte County,17020,"Chico, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,100
-6,7,California,Butte County,17020,"Chico, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,29
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,73467
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,10760
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,8776
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1500
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,205031
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,29923
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,6375
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,38895
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,6191
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1382
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,228
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,165
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,1236
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,64
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA",Public transportation,17
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA",Other travel mode,15
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,15591
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8717
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,26764
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1134
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,10335
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1949
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,421
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,165
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,806
-6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,266
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,317
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,39
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,54
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,236
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,51
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,34
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,11
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,51
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,125
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,99
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,48
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,390
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,63
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,16
-6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,63
-6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,203
-6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,17
-6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,8
-6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,19
-6,19,California,Fresno County,23420,"Fresno, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,20
-6,19,California,Fresno County,23420,"Fresno, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,16
-6,19,California,Fresno County,23420,"Fresno, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,10
-6,19,California,Fresno County,23420,"Fresno, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,28
-6,19,California,Fresno County,23420,"Fresno, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,28
-6,19,California,Fresno County,23420,"Fresno, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,329
-6,19,California,Fresno County,23420,"Fresno, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,64
-6,19,California,Fresno County,23420,"Fresno, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,51
-6,29,California,Kern County,12540,"Bakersfield, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,83
-6,29,California,Kern County,12540,"Bakersfield, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,7
-6,29,California,Kern County,12540,"Bakersfield, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,25
-6,29,California,Kern County,12540,"Bakersfield, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,26
-6,29,California,Kern County,12540,"Bakersfield, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,72
-6,29,California,Kern County,12540,"Bakersfield, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,22
-6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,19
-6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,44
-6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,28
-6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,48
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,579
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,79
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,68
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,187
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,250
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,45
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,106
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,9
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,34
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,26
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,55,California,Napa County,34900,"Napa, CA",Public transportation,10
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,639
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,118
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,222
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,494
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,866
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,245
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,23
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,172
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,105
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,36
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,9
-6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,7
+State FIPS,R County FIPS Code,R State Name,R County,R Metropolitan Statistical Area FIPS Code,R  Metropolitan Statistical Area of County,State FIPS Code,County FIPS Code,State Name,County,Metropolitan Statistical Area FIPS Code,Metropolitan Statistical Area of County,travel_mode,workers_in
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,303748
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,41827
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,32379
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,78815
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,32219
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3855
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,2065
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,874
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3387
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,601
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,80
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,42
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,277
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,88
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,21529
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8989
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,44744
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,2297
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,55358
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,9511
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,2799
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,712
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,692
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,59
+6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,35
+6,7,California,Butte County,17020,"Chico, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,129
+6,7,California,Butte County,17020,"Chico, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,71
+6,7,California,Butte County,17020,"Chico, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,17
+6,7,California,Butte County,17020,"Chico, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,124
+6,7,California,Butte County,17020,"Chico, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1
+6,7,California,Butte County,17020,"Chico, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,43
+6,7,California,Butte County,17020,"Chico, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,13
+6,7,California,Butte County,17020,"Chico, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,56
+6,7,California,Butte County,17020,"Chico, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,137
+6,7,California,Butte County,17020,"Chico, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,47
+6,7,California,Butte County,17020,"Chico, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,100
+6,7,California,Butte County,17020,"Chico, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,29
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,73467
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,10760
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,8776
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1500
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,205031
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,29923
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,6375
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,38895
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,6191
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1382
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,228
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,165
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,1236
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,64
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA",Public transportation,17
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA",Other travel mode,15
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,15591
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8717
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,26764
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1134
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,10335
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1949
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,421
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,165
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,806
+6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,266
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,317
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,39
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,54
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,236
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,51
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,34
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,11
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,51
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,125
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,99
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,48
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,390
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,63
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,16
+6,17,California,El Dorado County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,63
+6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,203
+6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,17
+6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,8
+6,19,California,Fresno County,23420,"Fresno, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,19
+6,19,California,Fresno County,23420,"Fresno, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,20
+6,19,California,Fresno County,23420,"Fresno, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,16
+6,19,California,Fresno County,23420,"Fresno, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,10
+6,19,California,Fresno County,23420,"Fresno, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,28
+6,19,California,Fresno County,23420,"Fresno, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,28
+6,19,California,Fresno County,23420,"Fresno, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,329
+6,19,California,Fresno County,23420,"Fresno, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,64
+6,19,California,Fresno County,23420,"Fresno, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,51
+6,29,California,Kern County,12540,"Bakersfield, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,83
+6,29,California,Kern County,12540,"Bakersfield, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,7
+6,29,California,Kern County,12540,"Bakersfield, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,25
+6,29,California,Kern County,12540,"Bakersfield, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,26
+6,29,California,Kern County,12540,"Bakersfield, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,72
+6,29,California,Kern County,12540,"Bakersfield, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,22
+6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,19
+6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,44
+6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,28
+6,31,California,Kings County,25260,"Hanford-Corcoran, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,48
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,579
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,79
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,68
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,187
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,250
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,45
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,106
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,9
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,34
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,26
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,55,California,Napa,34900,"Napa, CA",Public transportation,10
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,639
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,118
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,222
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,494
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,866
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,245
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,23
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,172
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,105
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,36
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,9
+6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,7
 6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,48
 6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Public transportation,33
 6,37,California,Los Angeles County,31080,"Los Angeles-Long Beach-Anaheim, CA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Other travel mode,15
-6,39,California,Madera County,31460,"Madera, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,27
-6,39,California,Madera County,31460,"Madera, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,25
-6,39,California,Madera County,31460,"Madera, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,58
-6,39,California,Madera County,31460,"Madera, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,30
-6,39,California,Madera County,31460,"Madera, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,26
-6,39,California,Madera County,31460,"Madera, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,38
-6,39,California,Madera County,31460,"Madera, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,194
-6,39,California,Madera County,31460,"Madera, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,115
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3724
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,304
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,77
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,60
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1800
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,348
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,29
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,6
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,52182
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,6261
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,2766
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,18467
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,450
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,58
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,14074
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3033
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7590
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,540
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,826
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,110
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,20
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,30
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,3833
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,308
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,109
-6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,52
-6,47,California,Merced County,32900,"Merced, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,702
-6,47,California,Merced County,32900,"Merced, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,210
-6,47,California,Merced County,32900,"Merced, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,2
-6,47,California,Merced County,32900,"Merced, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,153
-6,47,California,Merced County,32900,"Merced, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,27
-6,47,California,Merced County,32900,"Merced, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,27
-6,47,California,Merced County,32900,"Merced, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,190
-6,47,California,Merced County,32900,"Merced, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,51
-6,47,California,Merced County,32900,"Merced, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,10
-6,47,California,Merced County,32900,"Merced, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,2561
-6,47,California,Merced County,32900,"Merced, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1080
-6,47,California,Merced County,32900,"Merced, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,8
-6,47,California,Merced County,32900,"Merced, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,15
-6,47,California,Merced County,32900,"Merced, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,6
-6,53,California,Monterey County,41500,"Salinas, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,406
-6,53,California,Monterey County,41500,"Salinas, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,167
-6,53,California,Monterey County,41500,"Salinas, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,3
-6,53,California,Monterey County,41500,"Salinas, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,76
-6,53,California,Monterey County,41500,"Salinas, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,22
-6,53,California,Monterey County,41500,"Salinas, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,26
-6,53,California,Monterey County,41500,"Salinas, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7
-6,53,California,Monterey County,41500,"Salinas, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,188
-6,53,California,Monterey County,41500,"Salinas, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,65
-6,53,California,Monterey County,41500,"Salinas, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,5
-6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,3685
-6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,628
-6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,37
-6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,300
-6,53,California,Monterey County,41500,"Salinas, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,43
-6,55,California,Napa County,34900,"Napa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,828
-6,55,California,Napa County,34900,"Napa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,160
-6,55,California,Napa County,34900,"Napa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,20
-6,55,California,Napa County,34900,"Napa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,19
-6,55,California,Napa County,34900,"Napa, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1723
-6,55,California,Napa County,34900,"Napa, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,185
-6,55,California,Napa County,34900,"Napa, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7
-6,55,California,Napa County,34900,"Napa, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,955
-6,55,California,Napa County,34900,"Napa, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,165
-6,55,California,Napa County,34900,"Napa, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,36760
-6,55,California,Napa County,34900,"Napa, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,5714
-6,55,California,Napa County,34900,"Napa, CA",6,55,California,Napa County,34900,"Napa, CA",Public transportation,318
-6,55,California,Napa County,34900,"Napa, CA",6,55,California,Napa County,34900,"Napa, CA",Other travel mode,7108
-6,55,California,Napa County,34900,"Napa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1122
-6,55,California,Napa County,34900,"Napa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,386
-6,55,California,Napa County,34900,"Napa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,221
-6,55,California,Napa County,34900,"Napa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
-6,55,California,Napa County,34900,"Napa, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,325
-6,55,California,Napa County,34900,"Napa, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,22
-6,55,California,Napa County,34900,"Napa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,1855
-6,55,California,Napa County,34900,"Napa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,171
-6,55,California,Napa County,34900,"Napa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,10
-6,55,California,Napa County,34900,"Napa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,20
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,128
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,68
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,107
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,97
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,18
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,43
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,7
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,186
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,14
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,175
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,396
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,60
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,83
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,65
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,4
-6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,34
+6,39,California,Madera County,31460,"Madera, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,27
+6,39,California,Madera County,31460,"Madera, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,25
+6,39,California,Madera County,31460,"Madera, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,58
+6,39,California,Madera County,31460,"Madera, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,30
+6,39,California,Madera County,31460,"Madera, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,26
+6,39,California,Madera County,31460,"Madera, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,38
+6,39,California,Madera County,31460,"Madera, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,194
+6,39,California,Madera County,31460,"Madera, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,115
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3724
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,304
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,77
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,60
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1800
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,348
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,29
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,6
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,52182
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,6261
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,2766
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,18467
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,450
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,58
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,14074
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3033
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7590
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,540
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,826
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,110
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,20
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,30
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,3833
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,308
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,109
+6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,52
+6,47,California,Merced County,32900,"Merced, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,702
+6,47,California,Merced County,32900,"Merced, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,210
+6,47,California,Merced County,32900,"Merced, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,2
+6,47,California,Merced County,32900,"Merced, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,153
+6,47,California,Merced County,32900,"Merced, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,27
+6,47,California,Merced County,32900,"Merced, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,27
+6,47,California,Merced County,32900,"Merced, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,190
+6,47,California,Merced County,32900,"Merced, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,51
+6,47,California,Merced County,32900,"Merced, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,10
+6,47,California,Merced County,32900,"Merced, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,2561
+6,47,California,Merced County,32900,"Merced, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1080
+6,47,California,Merced County,32900,"Merced, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,8
+6,47,California,Merced County,32900,"Merced, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,15
+6,47,California,Merced County,32900,"Merced, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,6
+6,53,California,Monterey County,41500,"Salinas, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,406
+6,53,California,Monterey County,41500,"Salinas, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,167
+6,53,California,Monterey County,41500,"Salinas, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,3
+6,53,California,Monterey County,41500,"Salinas, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,76
+6,53,California,Monterey County,41500,"Salinas, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,22
+6,53,California,Monterey County,41500,"Salinas, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,26
+6,53,California,Monterey County,41500,"Salinas, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7
+6,53,California,Monterey County,41500,"Salinas, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,188
+6,53,California,Monterey County,41500,"Salinas, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,65
+6,53,California,Monterey County,41500,"Salinas, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,5
+6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,3685
+6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,628
+6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,37
+6,53,California,Monterey County,41500,"Salinas, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,300
+6,53,California,Monterey County,41500,"Salinas, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,43
+6,55,California,Napa,34900,"Napa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,828
+6,55,California,Napa,34900,"Napa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,160
+6,55,California,Napa,34900,"Napa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,20
+6,55,California,Napa,34900,"Napa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,19
+6,55,California,Napa,34900,"Napa, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1723
+6,55,California,Napa,34900,"Napa, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,185
+6,55,California,Napa,34900,"Napa, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7
+6,55,California,Napa,34900,"Napa, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,955
+6,55,California,Napa,34900,"Napa, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,165
+6,55,California,Napa,34900,"Napa, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,36760
+6,55,California,Napa,34900,"Napa, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,5714
+6,55,California,Napa,34900,"Napa, CA",6,55,California,Napa,34900,"Napa, CA",Public transportation,318
+6,55,California,Napa,34900,"Napa, CA",6,55,California,Napa,34900,"Napa, CA",Other travel mode,7108
+6,55,California,Napa,34900,"Napa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1122
+6,55,California,Napa,34900,"Napa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,386
+6,55,California,Napa,34900,"Napa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,221
+6,55,California,Napa,34900,"Napa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
+6,55,California,Napa,34900,"Napa, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,325
+6,55,California,Napa,34900,"Napa, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,22
+6,55,California,Napa,34900,"Napa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,1855
+6,55,California,Napa,34900,"Napa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,171
+6,55,California,Napa,34900,"Napa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,10
+6,55,California,Napa,34900,"Napa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,20
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,128
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,68
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,107
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,97
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,18
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,43
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,7
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,186
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,14
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,175
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,396
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,60
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,83
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,65
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,4
+6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,34
 6,59,California,Orange County,31080,"Los Angeles-Long Beach-Anaheim, CA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Other travel mode,75
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,588
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,71
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,10
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,339
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,19
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,31
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,81
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,14
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,84
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,11
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,300
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,33
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,32
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,671
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,68
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,31
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,17
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,213
-6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,34
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,163
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,21
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,50
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,87
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,39
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,25
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,121
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,54
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,14
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,11
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,119
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,16
-6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,160
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1747
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,333
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,121
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,113
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1507
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,313
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,96
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,29
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,367
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,110
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,8
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,308
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,124
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1138
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,413
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,357
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,1169
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,367
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,25
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,37
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,389
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,53
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,8
-6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,79
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,119
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,50
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,40
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,63
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,15
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,6902
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1318
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,129
-6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,66
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,157
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,7
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,26
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,107
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,17
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,184
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,12
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,16
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,9
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,168
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,12
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,14
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,17
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,94
-6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,7
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,146
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,39
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,66
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,80
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,7
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,15
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,8
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,29
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,80
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,72
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,94
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,195
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,25
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,14
-6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,150
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,12353
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1850
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7174
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,537
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,2668
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,512
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,676
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,199
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,5188
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,825
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,543
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,327
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,351
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,43
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA",Public transportation,50
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,97329
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,23322
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,123479
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,96605
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,11454
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,2131
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,7385
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,1453
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,438
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,102
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,94
-6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,128
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,19620
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,5366
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,761
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,238
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,4410
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,725
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,9
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,64
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,113
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,163
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,12
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,131
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,84
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,55,California,Napa County,34900,"Napa, CA",Other travel mode,9
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,832
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,534
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,379
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,34
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,5536
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1807
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,628
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,68
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,144
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,8
-6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,13
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,59
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,12
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,24
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,51
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,35
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,22
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,193
-6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,12
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,10266
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1187
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,1133
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,91
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1184
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,309
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,102
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,718
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,147
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,58
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,42
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,29
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa County,34900,"Napa, CA",Other travel mode,41
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,47592
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,10684
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,19183
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1261
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,43113
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,4709
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,2767
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,2399
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,145
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,24
-6,81,California,San Mateo County,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,72
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,55
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,9
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,12
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,14
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,59
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,41
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,14
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,61
-6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,7
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,31278
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,4404
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,829
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,538
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,2785
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,619
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,60
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,53
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,452
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,56
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,5987
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1047
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,4072
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,139
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,557995
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,75063
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,21060
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,78647
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,241
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,59
-6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,55
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1021
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,78
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,5
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,14
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,201
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,20
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,6
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,58
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,14
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,51
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,15
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,484
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,18
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,83
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,23
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,14650
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1910
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,315
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,405
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,69
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,22
-6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,9
-6,89,California,Shasta County,39820,"Redding, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,118
-6,89,California,Shasta County,39820,"Redding, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,6
-6,89,California,Shasta County,39820,"Redding, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
-6,89,California,Shasta County,39820,"Redding, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,82
-6,89,California,Shasta County,39820,"Redding, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,18
-6,89,California,Shasta County,39820,"Redding, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,22
-6,89,California,Shasta County,39820,"Redding, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8
-6,89,California,Shasta County,39820,"Redding, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,31
-6,89,California,Shasta County,39820,"Redding, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,29
-6,89,California,Shasta County,39820,"Redding, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,128
-6,89,California,Shasta County,39820,"Redding, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,42
-6,89,California,Shasta County,39820,"Redding, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,18
-6,89,California,Shasta County,39820,"Redding, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,13
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,7457
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1895
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,792
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,199
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,15476
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3060
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,327
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,137
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3471
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,796
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,4
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,33
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,9087
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,1363
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa County,34900,"Napa, CA",Public transportation,138
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa County,34900,"Napa, CA",Other travel mode,90
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3628
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3126
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,1711
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,145
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,1096
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,195
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,28
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,2108
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,518
-6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,51
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,2023
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,260
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,25
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,75
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1104
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,235
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,39
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,13480
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,2759
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,280
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,226
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,3552
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,644
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,55,California,Napa County,34900,"Napa, CA",Other travel mode,78
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3491
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1032
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,1193
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,156
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,806
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,169
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,17
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,142260
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,17383
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Public transportation,2493
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA",Other travel mode,25630
-6,97,California,Sonoma County,42220,"Santa Rosa, CA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,83
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,5156
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1934
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,131
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,24
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1129
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,296
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,42
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,81
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,5
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,313
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,200
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,46
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,24
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,3001
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1037
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,133
-6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,99
-6,101,California,Sutter County,49700,"Yuba City, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,57
-6,101,California,Sutter County,49700,"Yuba City, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,88
-6,101,California,Sutter County,49700,"Yuba City, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,15
-6,101,California,Sutter County,49700,"Yuba City, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,49
-6,101,California,Sutter County,49700,"Yuba City, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,18
-6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,20
-6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8
-6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,16
-6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,39
-6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,133
-6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,8
-6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,7
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,56
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,11
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,22
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,5
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,208
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,25
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,27
-6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,31
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,397
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,113
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,105
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,9
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,502
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,99
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,40
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,67
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA", Drove alone,259
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA", Carpooled,6
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa County,34900,"Napa, CA",Other travel mode,16
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,209
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,142
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,165
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,9
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,256
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,16
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,8
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,31
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Drove alone,87
-6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma County,42220,"Santa Rosa, CA", Carpooled,12
-6,115,California,Yuba County,49700,"Yuba City, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,16
-6,115,California,Yuba County,49700,"Yuba City, CA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,19
-6,115,California,Yuba County,49700,"Yuba City, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,36
-6,115,California,Yuba County,49700,"Yuba City, CA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,17
-6,115,California,Yuba County,49700,"Yuba City, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,14
-6,115,California,Yuba County,49700,"Yuba City, CA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,31
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,588
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,71
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,10
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,339
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,19
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,31
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,81
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,14
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,84
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,11
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,300
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,33
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,32
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,671
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,68
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,31
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,17
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,213
+6,61,California,Placer County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,34
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,163
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,21
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,50
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,87
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,39
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,25
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,121
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,54
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,14
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,11
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,119
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,16
+6,65,California,Riverside County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,160
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1747
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,333
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,121
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,113
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1507
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,313
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,96
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,29
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,367
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,110
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,8
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,308
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,124
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1138
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,413
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,357
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,1169
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,367
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,25
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,37
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,389
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,53
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,8
+6,67,California,Sacramento County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,79
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,119
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,50
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,40
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,63
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,15
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,6902
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1318
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,129
+6,69,California,San Benito County,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,66
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,157
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,7
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,26
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,107
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,17
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,184
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,12
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,16
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,9
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,168
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,12
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,14
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,17
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,94
+6,71,California,San Bernardino County,40140,"Riverside-San Bernardino-Ontario, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,7
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,146
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,39
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,66
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,80
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,7
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,15
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,8
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,29
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,80
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,72
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,94
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,195
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,25
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,14
+6,73,California,San Diego County,41740,"San Diego-Carlsbad, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,150
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,12353
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1850
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,7174
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,537
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,2668
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,512
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,676
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,199
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,5188
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,825
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,543
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,327
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,351
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,43
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA",Public transportation,50
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,97329
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,23322
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,123479
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,96605
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,11454
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,2131
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,7385
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,1453
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,438
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,102
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,94
+6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,128
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,19620
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,5366
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,761
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,238
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,4410
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,725
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,9
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,64
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,113
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,163
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,12
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,131
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,84
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,55,California,Napa,34900,"Napa, CA",Other travel mode,9
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,832
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,534
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,379
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,34
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,5536
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1807
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,628
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,68
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,144
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,8
+6,77,California,San Joaquin County,44700,"Stockton-Lodi, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,13
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,59
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,12
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,24
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,51
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,35
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,22
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,193
+6,79,California,San Luis Obispo County,42020,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,12
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,10266
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1187
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,1133
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,91
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1184
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,309
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,102
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,718
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,147
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,58
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,42
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,29
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,55,California,Napa,34900,"Napa, CA",Other travel mode,41
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,47592
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,10684
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,19183
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,1261
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,43113
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,4709
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,2767
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,2399
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,145
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,24
+6,81,California,San Mateo,41860,"San Francisco-Oakland-Hayward, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,72
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,55
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,9
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,12
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,14
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,59
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,41
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,14
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,61
+6,83,California,Santa Barbara County,42200,"Santa Maria-Santa Barbara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,7
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,31278
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,4404
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,829
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,538
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,2785
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,619
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,60
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,53
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,452
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,56
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,5987
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1047
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,4072
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,139
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,557995
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,75063
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,21060
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,78647
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,241
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,59
+6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,55
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1021
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,78
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,5
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,14
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,201
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,20
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,6
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,58
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,14
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,51
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,15
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,484
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,18
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,83
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,23
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,14650
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1910
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,315
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,405
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,69
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,22
+6,87,California,Santa Cruz County,42100,"Santa Cruz-Watsonville, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,9
+6,89,California,Shasta County,39820,"Redding, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,118
+6,89,California,Shasta County,39820,"Redding, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,6
+6,89,California,Shasta County,39820,"Redding, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,16
+6,89,California,Shasta County,39820,"Redding, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,82
+6,89,California,Shasta County,39820,"Redding, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,18
+6,89,California,Shasta County,39820,"Redding, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,22
+6,89,California,Shasta County,39820,"Redding, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8
+6,89,California,Shasta County,39820,"Redding, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,31
+6,89,California,Shasta County,39820,"Redding, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,29
+6,89,California,Shasta County,39820,"Redding, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,128
+6,89,California,Shasta County,39820,"Redding, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,42
+6,89,California,Shasta County,39820,"Redding, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,18
+6,89,California,Shasta County,39820,"Redding, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,13
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,7457
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1895
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,792
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,199
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,15476
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3060
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,327
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,137
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3471
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,796
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,4
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,33
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,9087
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,1363
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa,34900,"Napa, CA",Public transportation,138
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,55,California,Napa,34900,"Napa, CA",Other travel mode,90
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3628
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3126
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,1711
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,145
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,1096
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,195
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,28
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,2108
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,518
+6,95,California,Solano County,46700,"Vallejo-Fairfield, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,51
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,2023
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,260
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,25
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,75
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1104
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,235
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,39
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,13480
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,2759
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,280
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,226
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,3552
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,644
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,55,California,Napa,34900,"Napa, CA",Other travel mode,78
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,3491
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1032
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,1193
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,156
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,806
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,169
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,17
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,142260
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,17383
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Public transportation,2493
+6,97,California,Sonoma,42220,"Santa Rosa, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA",Other travel mode,25630
+6,97,California,Sonoma,42220,"Santa Rosa, CA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,83
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,5156
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,1934
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,131
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,24
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,1129
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,296
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,42
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,81
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,5
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,313
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,200
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,46
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,24
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,3001
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,1037
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,133
+6,99,California,Stanislaus County,33700,"Modesto, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,99
+6,101,California,Sutter County,49700,"Yuba City, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,57
+6,101,California,Sutter County,49700,"Yuba City, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,88
+6,101,California,Sutter County,49700,"Yuba City, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,15
+6,101,California,Sutter County,49700,"Yuba City, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,49
+6,101,California,Sutter County,49700,"Yuba City, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,18
+6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,20
+6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,8
+6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,16
+6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,39
+6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,133
+6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,8
+6,107,California,Tulare County,47300,"Visalia-Porterville, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,7
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,56
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,11
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,22
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,5
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,208
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,25
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,27
+6,111,California,Ventura County,37100,"Oxnard-Thousand Oaks-Ventura, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,31
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,397
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,113
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,105
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,9
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,502
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,13,California,Contra Costa,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,99
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,40
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,41,California,Marin,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,67
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA", Drove alone,259
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA", Carpooled,6
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,55,California,Napa,34900,"Napa, CA",Other travel mode,16
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,209
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,142
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,165
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,9
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,256
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,16
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Public transportation,8
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA",Other travel mode,31
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Drove alone,87
+6,113,California,Yolo County,40900,"Sacramento--Roseville--Arden-Arcade, CA",6,97,California,Sonoma,42220,"Santa Rosa, CA", Carpooled,12
+6,115,California,Yuba County,49700,"Yuba City, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,16
+6,115,California,Yuba County,49700,"Yuba City, CA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,19
+6,115,California,Yuba County,49700,"Yuba City, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,36
+6,115,California,Yuba County,49700,"Yuba City, CA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,17
+6,115,California,Yuba County,49700,"Yuba City, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,14
+6,115,California,Yuba County,49700,"Yuba City, CA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Carpooled,31
 36,1,New York,Albany County,10580,"Albany-Schenectady-Troy, NY",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,35
 36,1,New York,Albany County,10580,"Albany-Schenectady-Troy, NY",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Public transportation,26
 36,1,New York,Albany County,10580,"Albany-Schenectady-Troy, NY",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,63
@@ -621,9 +621,9 @@ R State FIPS Code,R County FIPS Code,R State Name,R County Name,R Metropolitan S
 36,43,New York,Herkimer County,46540,"Utica-Rome, NY",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,40
 36,45,New York,Jefferson County,48060,"Watertown-Fort Drum, NY",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,6
 36,45,New York,Jefferson County,48060,"Watertown-Fort Drum, NY",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Other travel mode,2
-36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,46
-36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3
-36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,47
+36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,46
+36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,3
+36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,47
 36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,4460
 36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Carpooled,771
 36,47,New York,Kings County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Public transportation,8413
@@ -646,12 +646,12 @@ R State FIPS Code,R County FIPS Code,R State Name,R County Name,R Metropolitan S
 36,59,New York,Nassau County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Carpooled,6898
 36,59,New York,Nassau County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Public transportation,6254
 36,59,New York,Nassau County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Other travel mode,705
-36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,27
-36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,1,California,Alameda County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,28
-36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,8
-36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,76
-36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,125
-36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,85,California,Santa Clara County,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,112
+36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,27
+36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,1,California,Alameda,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,28
+36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,8
+36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Public transportation,76
+36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,125
+36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,85,California,Santa Clara,41940,"San Jose-Sunnyvale-Santa Clara, CA", Drove alone,112
 36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,5197
 36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Carpooled,1363
 36,61,New York,New York County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Public transportation,19363
@@ -677,9 +677,9 @@ R State FIPS Code,R County FIPS Code,R State Name,R County Name,R Metropolitan S
 36,79,New York,Putnam County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,340
 36,79,New York,Putnam County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Carpooled,27
 36,79,New York,Putnam County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Public transportation,57
-36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,6
-36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,5
-36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco County,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,8
+36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Drove alone,6
+36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA", Carpooled,5
+36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",6,75,California,San Francisco,41860,"San Francisco-Oakland-Hayward, CA",Other travel mode,8
 36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Drove alone,10671
 36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA", Carpooled,2063
 36,81,New York,Queens County,35620,"New York-Newark-Jersey City, NY-NJ-PA",36,5,New York,Bronx County,35620,"New York-Newark-Jersey City, NY-NJ-PA",Public transportation,8499

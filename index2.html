@@ -18,6 +18,7 @@
 </style>
 </head>  
 <body>
+    <p> hi babe</p>
 <script> 
 var width = 1000,
     height = 1000;
@@ -25,17 +26,15 @@ var width = 1000,
 var projection = d3.geoAlbers();
 
 var path = d3.geoPath()
-    .projection(projection);
-    
+    .projection(projection)
+    .bounds([200,200],[200,200]);
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
     
-
-    
  d3.queue()
-    .defer(d3.json, "caCountiesTopo.json") 
+    .defer(d3.json, "bayarea2.json") 
     .defer(d3.csv, "wages.csv")
     .defer(d3.csv, "travelmodes.csv")
     .await(ready);   
@@ -69,25 +68,18 @@ var svg = d3.select("body").append("svg")
     .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1"]);
     
 var county_data = {};
-var commute_data={};
 
-function ready(error, name, wages, travelmodes) {
+function ready(error, name, wages) {
     
-    wages.forEach(function(d){
-      //  county_data[d.id] = +d.annual_wage
-             console.log(d.id)
-
-        county_data[d.id] = +d.annual_wage
-    })
- travelmodes.forEach(function(d){
-     console.log(d["County"])
-        //commute_data[d.id] = +d.workers_in
-    })    
+//    wages.forEach(function(d){
+//        county_data[d.id] = +d.annual_wage
+//    })
+    
   if (error) throw error;
      svg.append("g")
       .attr("class", "counties")
     .selectAll("path")
-      .data(topojson.feature(name, name.objects.subunits).features) // Bind TopoJSON data elements
+      .data(topojson.feature(name, name.objects.views).features) // Bind TopoJSON data elements
     .enter().append("path")
       .attr("d", path)
       	.style("fill", function(d) {
