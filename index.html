@@ -34,18 +34,45 @@ var svg = d3.select("body").append("svg")
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
+    .defer(d3.csv, "travelmodes.csv")
     .await(ready);   
+//var county_data = [];
+//console.log(d3.json, "caCountiesTopo.json")
+//d3.csv("wages.csv", function(data) {
+//    data.forEach(function(d) {
+//    d.id= d.id 
+//    d.area = +d.area;
+//    d["Annual Average Pay"] = +d["Annual Average Pay"];
+//    var county ={FIPS:d.FIPS,name:d.Area,anul_wage:d["Annual Average Pay"]}  
+//    county_data.push(county)
+//  });
+//  console.log(data);
+    //    var circle ={x:x,y:y,sat:sat,light:light}
 
-    var county = {}; // Create empty object for holding dataset
-  wages.forEach(function(d) {
-    wageByID[d.id] = +d.rate; // Create property for each ID, give it value from rate
-  });
-  
- var color = d3.scaleThreshold()
-    .domain([0.02, 0.04, 0.06, 0.08, 0.10])
-    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1", "#54278f"]);
+//d3.csv("wages.csv", function(d) {
+//  return {
+//    FIPS : d.FIPS,
+//    name : d.Area,
+//    anul_wage : +d["Annual Average Pay"]
+//  };
+//}, function(data) {
+//  console.log(data);
+//});    
+//    
     
-function ready(error, name) {
+
+ var color = d3.scaleThreshold()
+    .domain([40000,60000,80000,100000,120000])
+    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1"]);
+    
+var county_data = {};
+
+function ready(error, name, wages) {
+    
+    wages.forEach(function(d){
+        county_data[d.id] = +d.annual_wage
+    })
+    
   if (error) throw error;
      svg.append("g")
       .attr("class", "counties")
@@ -54,10 +81,8 @@ function ready(error, name) {
     .enter().append("path")
       .attr("d", path)
       	.style("fill", function(d) {
-		return color(d.name); // get rate value for property matching data ID
-		// pass rate value to color function, return color based on domain and range
-	})
-    
+		return color(county_data[d.id])
+     })
       .style("stroke", "black");
     
 }
