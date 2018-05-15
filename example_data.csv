@@ -1,3 +1,13 @@
-R State FIPS Code,R County FIPS Code,R State Name,R County Name,State FIPS Code,County FIPS Code,State Name,County Name,Workers in Total,Workers to Alameda,Workers to Contra Costa,Workers to Marin,Workers to Napa,Workers to San Francisco,Workers to Santa Clara,Workers to Sonoma
-6,1,California,Alameda County,6,13,California,Contra Costa County,191233,0,39013,4387,364,77911,68772,786
-6,13,California,Contra Costa County,6,1,California,Alameda County,156007.2,94503,0,7966,1332,52206,0.1,0.1
+R State FIPS Code,R County FIPS Code,R State Name,R County Name,State FIPS Code,County FIPS Code,State Name,County Name,Workers in Total,Alameda,Contra Costa,Marin,Napa,San Fran,S Clara,Sonoma,Mataeo,Fresno,Solana,Queens,Bronx
+6,1,California,Alameda County,6,13,California,Contra Costa County,191233,0,39013,4387,364,77911,68772,786,0,0,0,0,0
+6,13,California,Contra Costa County,6,1,California,Alameda County,156007.2,94503,0,7966,1332,52206,0.1,0.1,0,0,0,0,0
+6,19,California,Fresno County,6,1,California,Alameda County,793,247,46,0,0,56,444,0,0,0,0,0,0
+,,,Marin County,,,California,,37381,4165,2183,0,508,25237,986,4302,0,0,0,0,0
+,,,Napa County,,,California,,8210,1027,1915,1120,0,1745,347,2056,0,0,0,0,0
+,,,San Francisco County,,,California,,56481,21914,4055,6883,444,0,22423,762,0,0,0,0,0
+,,,San Mataeo County,,,California,,147272,12677,1611,923,112,78720,52988,241,0,0,0,0,0
+,,,Santa Clara County,,,California,,52674,37049,3517,508,0,11245,0,355,0,0,0,0,0
+,,,Sonoma County,,,California,,31644,2383,1378,16745,4274,5872,992,0,0,0,0,0,0
+,,,Solana County,,,California,,56930,10343,19000,4303,10678,8610,1319,2677,0,0,0,0,0
+,,,Bronx County,,,New York,,23728,0,0,0,0,0,0,0,0,0,0,23728,0
+,,,Queens County,,,New York,,21567,0,0,0,0,0,0,0,0,0,0,0,21567
