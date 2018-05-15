@@ -37,7 +37,7 @@ var svg = d3.select("body").append("svg")
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
-    .defer(d3.csv, "travelmodes_backup.csv")
+    .defer(d3.csv, "example_data.csv")
     .await(ready);   
 //var county_data = [];
 //console.log(d3.json, "caCountiesTopo.json")
@@ -73,7 +73,7 @@ var commute_data={};
 //var popal={};
 //     popal.name= "bab"
 //    popal.pop=900;
-function ready(error, name, wages, travelmodes) {
+function ready(error, name, wages, example_data) {
     
     wages.forEach(function(d){
       //  county_data[d.id] = +d.annual_wage
@@ -82,11 +82,17 @@ function ready(error, name, wages, travelmodes) {
         county_data[d.id] = +d.annual_wage
     })
     
- travelmodes.forEach(function(d){
+ example_data.forEach(function(d){
      var county={};
      county.name=d["R County Name"]
      county.id=d["R County FIPS Code"]
-     county.commuters=d["Workers in Commuting Flow"] 
+     county.Napa=d["Workers to Napa"]
+    county.Sonoma=d["Workers to Sonoma"]
+  county.Marin=d["Workers to Marin"]
+     county.SanFrancisco=d["Workers to San Francisco"]
+     county.ContraCosta=d["Workers to Contra Costa"]
+     county.Alameda=d["Workers to Alameda"]
+      county.SantaClara=d["Workers to Santa Clara"]
      county.x=30
      county.y=30
     commute_data[d["R County Name"]]=county;
