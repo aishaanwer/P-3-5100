@@ -18,19 +18,20 @@
 </style>
 </head>  
 <body>
+    <svg height="1000" width="1000"  viewbox="10 150 200 200" > </svg>
+   
 <script> 
-var width = 1000,
-    height = 1000;
+//var width = 500,
+//    height = 500;
+// viewbox="80 110 150 150"
+var projection = d3.geoAlbersUsa().scale(3300).translate([1200,340]);
 
-var projection = d3.geoAlbers();
-
+//projection.scale(2000);
 var path = d3.geoPath()
     .projection(projection);
     
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+var svg = d3.select("svg");
     
 
     
@@ -66,19 +67,18 @@ var svg = d3.select("body").append("svg")
 
  var color = d3.scaleThreshold()
     .domain([40000,60000,80000,100000,120000])
-    .range(["#f2f0f7", "#dadaeb", "#bcbddc", "#9e9ac8", "#756bb1"]);
+    .range(["#A2D9CE", "#1ABC9C", "#1B4F72", "#B7950B", "#C0392B"]);
     
 var county_data = {};
 var commute_data=[];
+var all_points=[]; 
+
 //var popal={};
 //     popal.name= "bab"
 //    popal.pop=900;
 function ready(error, name, wages, example_data) {
-    
+    console.log(wages);
     wages.forEach(function(d){
-      //  county_data[d.id] = +d.annual_wage
-             console.log(d.id)
-
         county_data[d.id] = +d.annual_wage
     })
     
@@ -87,13 +87,14 @@ function ready(error, name, wages, example_data) {
      county.name=d["R County Name"]
      county.id=d["R County FIPS Code"]
      county.workerTotal=d["Workers in Total"]
-     county.Napa=d["Workers to Napa"]
-     county.Sonoma=d["Workers to Sonoma"]
-     county.Marin=d["Workers to Marin"]
-     county.SanFrancisco=d["Workers to San Francisco"]
-     county.ContraCosta=d["Workers to Contra Costa"]
-     county.Alameda=d["Workers to Alameda"]
-      county.SantaClara=d["Workers to Santa Clara"]
+     county.Napa=d["Napa"]
+     county.Sonoma=d["Sonoma"]
+     county.Marin=d["Marin"]
+     county.SanFrancisco=d["San Fran"]
+     county.ContraCosta=d["Contra Costa"]
+     county.Alameda=d["Alameda"]
+      county.SantaClara=d["S Clara"]
+     county.SanMateo=d["S Mateo"]
      county.x=105
      county.y=209
      commute_data.push(county);
@@ -105,36 +106,93 @@ function ready(error, name, wages, example_data) {
     }) 
     
     commute_data.forEach(function(d){
-         
-           
-       } 
-        
-        
-        
-        
+
+      for(i=0;i<d.Napa/1000;i++){
+          var point={}
+          point.origin=d.name
+          point.dest="Napa"
+          point.x2=112
+          point.y2=201
+          all_points.push(point);
+      }
+        for(i=0;i<d.Sonoma/1000;i++){
+          var point={}
+          point.origin=d.name;
+          point.dest="Sonoma"
+          point.x2=103
+          point.y2=197    
+          all_points.push(point);
+      }
+        for(i=0;i<d.Marin/1000;i++){
+          var point={}    
+          point.origin=d.name;
+          point.dest="Marin"
+          point.x2=105
+          point.y2=209  
+          all_points.push(point)
+      }
+        for(i=0;i<d.SanFrancisco/1000;i++){
+          var point={}    
+          point.origin=d.name;
+          point.dest="San Francisco"
+          point.x2=105
+          point.y2=215 
+          all_points.push(point)
+      }
+        for(i=0;i<d.ContraCosta/1000;i++){
+         var point={}
+          point.origin=d.name;
+          point.dest="Contra Costa"
+          point.x2=115
+          point.y2=219
+          all_points.push(point)
+      }
+         for(i=0;i<d.Alameda/1000;i++){
+          var point={}
+          point.origin=d.name;
+          point.dest="Alameda"
+          point.x2=116
+          point.y2=215     
+          all_points.push(point)
+      }
+         for(i=0;i<d.SantaClara/1000;i++){
+          var point={}
+          point.origin=d.name;
+          point.dest="Santa Clara"
+          point.x2=115
+          point.y2=226
+          all_points.push(point)
+      }
+       
     })
-    
+       //marin(105,209) sonoma(:103 y=197) napa x:112, y:201; sf (105,215), alameda(116,215),contra costa"(115,219) 
+
+   
+
   if (error) throw error;
      svg.append("g")
       .attr("class", "counties")
-    .selectAll("path")
+      .selectAll("path")
       .data(topojson.feature(name, name.objects.subunits).features) // Bind TopoJSON data elements
-    .enter().append("path")
+      .enter().append("path")
       .attr("d", path)
-      	.style("fill", function(d) {
+     .style("fill", function(d) {
+         if (d.id == "06001")
+            console.log(color(county_data["06001"]));
 		return color(county_data[d.id])
      })
       .style("stroke", "black");
      
-   //marin(105,209) sonoma(:103 y=197) napa x:112, y:201; sf (105,215), alameda(116,215),contra costa"(115,219) 
+    
     var datal = [{x: 50, y: 500}, {x: 200, y: 200}, {x: 300, y: 300}]
 
 
     svg.selectAll("circle")
-		.data(commute_data).enter()
+		.data(all_points).enter()
 		.append("circle")
-        .attr("cx", function(d) { return d.x; } )
-		.attr("cy",function(d) { return d.y; })
+        .attr("cx", function(d) {
+        return d.x2; } )
+		.attr("cy",function(d) { return d.y2 })
 		.attr("r", "1px")
         .attr("opacity",.1)
 		.attr("fill", "red")

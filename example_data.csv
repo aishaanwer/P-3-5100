@@ -1,4 +1,4 @@
-R State FIPS Code,R County FIPS Code,R State Name,R County Name,State FIPS Code,County FIPS Code,State Name,County Name,Workers in Total,Alameda,Contra Costa,Marin,Napa,San Fran,S Clara,Sonoma,Mataeo,Fresno,Solana,Queens,Bronx
+R State FIPS Code,R County FIPS Code,R State Name,R County Name,State FIPS Code,County FIPS Code,State Name,County Name,Workers in Total,Alameda,Contra Costa,Marin,Napa,San Fran,S Clara,Sonoma,S Mateo,Fresno,Solana,Queens,Bronx
 6,1,California,Alameda County,6,13,California,Contra Costa County,191233,0,39013,4387,364,77911,68772,786,0,0,0,0,0
 6,13,California,Contra Costa County,6,1,California,Alameda County,156007.2,94503,0,7966,1332,52206,0.1,0.1,0,0,0,0,0
 6,19,California,Fresno County,6,1,California,Alameda County,793,247,46,0,0,56,444,0,0,0,0,0,0
