@@ -37,7 +37,7 @@ var svg = d3.select("body").append("svg")
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
-    .defer(d3.csv, "travelmodes.csv")
+    .defer(d3.csv, "travelmodes_backup.csv")
     .await(ready);   
 //var county_data = [];
 //console.log(d3.json, "caCountiesTopo.json")
@@ -70,7 +70,9 @@ var svg = d3.select("body").append("svg")
     
 var county_data = {};
 var commute_data={};
-
+//var popal={};
+//     popal.name= "bab"
+//    popal.pop=900;
 function ready(error, name, wages, travelmodes) {
     
     wages.forEach(function(d){
@@ -79,8 +81,18 @@ function ready(error, name, wages, travelmodes) {
 
         county_data[d.id] = +d.annual_wage
     })
+    
  travelmodes.forEach(function(d){
-     console.log(d["County"])
+     var county={};
+     county.name=d["R County Name"]
+     county.id=d["R County FIPS Code"]
+     county.commuters=d["Workers in Commuting Flow"] 
+     county.x=30
+     county.y=30
+    commute_data[d["R County Name"]]=county;
+    //commute_data[d["R County Name"]] = +d["Workers in Commuting Flow"]
+
+     //console.log(d["R County Name"])
         //commute_data[d.id] = +d.workers_in
     })    
   if (error) throw error;
@@ -94,8 +106,28 @@ function ready(error, name, wages, travelmodes) {
 		return color(county_data[d.id])
      })
       .style("stroke", "black");
+     
+   //marin(105,209) sonoma(:103 y=197) napa x:112, y:201; sf (105,215)
+
     
-}
+     svg.append("circle")
+        .attr("cx", 105)
+		.attr("cy", 215)
+		.attr("r", "1px")
+		.attr("fill", "red")
+
+//    svg.selectAll("circle")
+//		.data(commute_data).enter()
+//		.append("circle")
+//        .attr("cx", function (d) { 
+//        console.log("something")
+//        return d.x })
+//		.attr("cy", function (d) { 
+//        return d.y; })
+//		.attr("r", "5px")
+//		.attr("fill", "red")
+    }
+
 
     
 </script>        
