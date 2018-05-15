@@ -18,7 +18,7 @@
 </style>
 </head>  
 <body>
-    <svg height="1000" width="1000"  viewbox="10 150 200 200" > </svg>
+    <svg height="700" width="700"  viewbox="5 155 120 140" > </svg>
    
 <script> 
 //var width = 500,
@@ -93,7 +93,7 @@ function ready(error, name, wages, example_data) {
      county.SanFrancisco=d["San Fran"]
      county.ContraCosta=d["Contra Costa"]
      county.Alameda=d["Alameda"]
-      county.SantaClara=d["S Clara"]
+     county.SantaClara=d["S Clara"]
      county.SanMateo=d["S Mateo"]
      county.x=105
      county.y=209
@@ -111,64 +111,80 @@ function ready(error, name, wages, example_data) {
           var point={}
           point.origin=d.name
           point.dest="Napa"
-          point.x2=112
-          point.y2=201
+          point.x2=50
+          point.y2=190
+          point.color="blue"
           all_points.push(point);
       }
         for(i=0;i<d.Sonoma/1000;i++){
           var point={}
           point.origin=d.name;
           point.dest="Sonoma"
-          point.x2=103
-          point.y2=197    
+          point.x2=68
+          point.y2=195
+          point.color="silver"    
           all_points.push(point);
       }
         for(i=0;i<d.Marin/1000;i++){
           var point={}    
           point.origin=d.name;
           point.dest="Marin"
-          point.x2=105
-          point.y2=209  
+          point.x2=40
+          point.y2=210  
+          point.color="green" 
+          all_points.push(point)
+      }
+        for(i=0;i<d.SanMateo;i++){
+          var point={}    
+          point.origin=d.name;
+          point.dest="San Mateo"
+          point.x2=40
+          point.y2=210  
+          point.color="darkgrey" 
           all_points.push(point)
       }
         for(i=0;i<d.SanFrancisco/1000;i++){
           var point={}    
           point.origin=d.name;
           point.dest="San Francisco"
-          point.x2=105
-          point.y2=215 
+          point.x2=50
+          point.y2=230 
+          point.color="red"     
           all_points.push(point)
       }
         for(i=0;i<d.ContraCosta/1000;i++){
          var point={}
           point.origin=d.name;
           point.dest="Contra Costa"
-          point.x2=115
-          point.y2=219
+          point.x2=70
+          point.y2=245
+          point.color="black"       
           all_points.push(point)
       }
          for(i=0;i<d.Alameda/1000;i++){
           var point={}
           point.origin=d.name;
           point.dest="Alameda"
-          point.x2=116
-          point.y2=215     
+          point.x2=70
+          point.y2=225  
+          point.color="yellow"       
           all_points.push(point)
       }
          for(i=0;i<d.SantaClara/1000;i++){
           var point={}
           point.origin=d.name;
           point.dest="Santa Clara"
-          point.x2=115
-          point.y2=226
+          point.x2=70
+          point.y2=260
+          point.color="silver"       
           all_points.push(point)
       }
        
     })
        //marin(105,209) sonoma(:103 y=197) napa x:112, y:201; sf (105,215), alameda(116,215),contra costa"(115,219) 
 
-   
-
+jitter=Math.random(0,5);
+    
   if (error) throw error;
      svg.append("g")
       .attr("class", "counties")
@@ -190,12 +206,11 @@ function ready(error, name, wages, example_data) {
     svg.selectAll("circle")
 		.data(all_points).enter()
 		.append("circle")
-        .attr("cx", function(d) {
-        return d.x2; } )
-		.attr("cy",function(d) { return d.y2 })
+        .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
+		.attr("cy",function(d) { return d.y2+Math.floor(Math.random() * 8) })
 		.attr("r", "1px")
-        .attr("opacity",.1)
-		.attr("fill", "red")
+        .attr("opacity",.2)
+		.attr("fill", function(d) { return d.color })
     }
 
 
