@@ -1,0 +1,11 @@
+R State FIPS Code,R County FIPS Code,R State Name,R County Name,State FIPS Code,County FIPS Code,State Name,County Name,Workers in Commuting Flow
+6,1,California,Alameda County,6,13,California,Contra Costa County,39013
+6,1,California,Alameda County,6,41,California,Marin County,4387
+6,1,California,Alameda County,6,55,California,Napa County,365
+6,1,California,Alameda County,6,75,California,San Francisco County,77911
+6,1,California,Alameda County,6,85,California,Santa Clara County,68772
+6,1,California,Alameda County,6,97,California,Sonoma County,786
+6,13,California,Contra Costa County,6,1,California,Alameda County,94503
+6,13,California,Contra Costa County,6,41,California,Marin County,7966
+6,13,California,Contra Costa County,6,55,California,Napa County,1332
+6,13,California,Contra Costa County,6,75,California,San Francisco County,52206
