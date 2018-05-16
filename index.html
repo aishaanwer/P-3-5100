@@ -9,6 +9,18 @@
 <script src="https://d3js.org/d3-queue.v2.min.js"></script>
 
 <style>
+    
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+    
     path {
       fill: none;
       stroke: #000;
@@ -18,6 +30,20 @@
 </style>
 </head>  
 <body>
+    
+    
+    
+    <div id="option">
+    <input id = "cButton"
+           name="updateButton" 
+           type="button" 
+           value="Commute" 
+           onclick = "Commute()"/>
+        
+       
+
+</div>
+    
     <svg height="700" width="700"  viewbox="5 155 120 140" > </svg>
    
 <script> 
@@ -64,10 +90,10 @@ var svg = d3.select("svg");
 //});    
 //    
     
-
+var flag = 0;
  var color = d3.scaleThreshold()
     .domain([40000,60000,80000,100000,120000])
-    .range(["#A2D9CE", "#1ABC9C", "#1B4F72", "#B7950B", "#C0392B"]);
+    .range(["#A2D9CE", "#1ABC9C", "#1B4F72", "#B7950B", "#C0392B", "#1ABD8D"]);
     
 var county_data = {};
 var commute_data=[];
@@ -76,6 +102,18 @@ var all_points=[];
 //var popal={};
 //     popal.name= "bab"
 //    popal.pop=900;
+    
+//    	svg.append("rect")
+//        .attr("x", 120)
+//		.attr("y", 200)
+//        .attr("fill","none") 
+//        .attr("stroke", "black")
+//		.attr("height", 10)
+//        .attr("width", 10)
+//        .style("text", function(d){ return "Home"});
+    
+    
+   
 function ready(error, name, wages, example_data) {
     console.log(wages);
     wages.forEach(function(d){
@@ -98,6 +136,7 @@ function ready(error, name, wages, example_data) {
      county.x=105
      county.y=209
      commute_data.push(county);
+//     console.log(commute_data)
     //commute_data[d["R County Name"]]=county;
     //commute_data[d["R County Name"]] = +d["Workers in Commuting Flow"]
 
@@ -111,6 +150,8 @@ function ready(error, name, wages, example_data) {
           var point={}
           point.origin=d.name
           point.dest="Napa"
+          point.x1 = 0
+          point.y1 = 0
           point.x2=50
           point.y2=190
           point.color="blue"
@@ -120,6 +161,8 @@ function ready(error, name, wages, example_data) {
           var point={}
           point.origin=d.name;
           point.dest="Sonoma"
+          point.x1 = 0
+          point.y1 = 0
           point.x2=68
           point.y2=195
           point.color="silver"    
@@ -129,8 +172,10 @@ function ready(error, name, wages, example_data) {
           var point={}    
           point.origin=d.name;
           point.dest="Marin"
-          point.x2=40
-          point.y2=210  
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=50
+          point.y2=200  
           point.color="green" 
           all_points.push(point)
       }
@@ -138,6 +183,8 @@ function ready(error, name, wages, example_data) {
           var point={}    
           point.origin=d.name;
           point.dest="San Mateo"
+          point.x1 = 0
+          point.y1 = 0
           point.x2=40
           point.y2=210  
           point.color="darkgrey" 
@@ -147,6 +194,8 @@ function ready(error, name, wages, example_data) {
           var point={}    
           point.origin=d.name;
           point.dest="San Francisco"
+          point.x1 = 0
+          point.y1 = 0
           point.x2=50
           point.y2=230 
           point.color="red"     
@@ -156,6 +205,8 @@ function ready(error, name, wages, example_data) {
          var point={}
           point.origin=d.name;
           point.dest="Contra Costa"
+          point.x1 = 0
+          point.y1 = 0
           point.x2=70
           point.y2=245
           point.color="black"       
@@ -165,6 +216,8 @@ function ready(error, name, wages, example_data) {
           var point={}
           point.origin=d.name;
           point.dest="Alameda"
+          point.x1 = 0
+          point.y1 = 0
           point.x2=70
           point.y2=225  
           point.color="yellow"       
@@ -174,27 +227,91 @@ function ready(error, name, wages, example_data) {
           var point={}
           point.origin=d.name;
           point.dest="Santa Clara"
+          point.x1 = 0
+          point.y1 = 0
           point.x2=70
           point.y2=260
           point.color="silver"       
           all_points.push(point)
       }
        
+    })   
+    
+    
+    all_points.forEach(function(d){
+        if (d.origin == "Napa County")
+            {
+                d.x1 = 50
+                d.y1 = 190
+                d.color="blue"
+            }        
+        if (d.origin == "Sonoma County")
+            {
+                d.x1 = 68
+                d.y1 = 195
+                d.color="silver"    
+
+            }
+        if (d.origin == "San Mateo County")
+            {
+                d.x1 = 40
+                d.y1 = 250
+                d.color="orange" 
+
+            }
+        if (d.origin == "San Francisco County")
+            {
+                d.x1 = 50
+                d.y1 = 230
+                d.color="red"     
+
+            }
+        if (d.origin == "Contra Costa County")
+            {
+                d.x1 = 70
+                d.y1 = 245
+                d.color="black"       
+
+            }
+        if (d.origin == "Alameda County")
+            {
+                d.x1 = 70
+                d.y1 = 225
+                d.color="yellow"       
+
+            }
+        if (d.origin == "Santa Clara County")
+            {
+                d.x1 = 70
+                d.y1 = 260
+                d.color="purple"       
+
+            }
+        if (d.origin == "Marin County")
+            {
+                d.x1 = 50
+                d.y1 = 200
+                d.color="green" 
+
+            }
     })
+      
+    
+    console.log(all_points)
        //marin(105,209) sonoma(:103 y=197) napa x:112, y:201; sf (105,215), alameda(116,215),contra costa"(115,219) 
 
-jitter=Math.random(0,5);
+//jitter=Math.random(0,5);
     
   if (error) throw error;
      svg.append("g")
       .attr("class", "counties")
       .selectAll("path")
-      .data(topojson.feature(name, name.objects.subunits).features) // Bind TopoJSON data elements
+      .data(topojson.feature(name, name.objects.subunits).features) 
       .enter().append("path")
       .attr("d", path)
      .style("fill", function(d) {
-         if (d.id == "06001")
-            console.log(color(county_data["06001"]));
+//         if (d.id == "06001")
+            console.log(county_data[d.name],color(county_data[d.id]));
 		return color(county_data[d.id])
      })
       .style("stroke", "black");
@@ -211,9 +328,43 @@ jitter=Math.random(0,5);
 		.attr("r", "1px")
         .attr("opacity",.2)
 		.attr("fill", function(d) { return d.color })
+    
+}
+
+//    d3.select("#cButton").on("click", Commute())
+//    d3.select(this).text("asdsa");
+
+
+function Commute (){
+    d3.select("input").text("New")
+    if(flag == 1){
+        Home()
+        flag = 0
     }
-
-
+    else{
+    svg.selectAll("circle")
+            .transition().delay(500).duration(500) // wait 1.5 sec (long enough for the previous transition to end) and then smoothly interpolate new pixel positions.
+            .attr("cx", function(d) {return d.x1+Math.floor(Math.random() * 8); } )
+            .attr("cy", function(d) {return d.y1+Math.floor(Math.random() * 8); } )
+    
+    flag = 1;
+    }
+    
+    
+    
+}
+    
+    function Home (){
+    d3.select("input").text("New")
+    
+    svg.selectAll("circle")
+            .transition().delay(500).duration(500) // wait 1.5 sec (long enough for the previous transition to end) and then smoothly interpolate new pixel positions.
+            .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
+            .attr("cy", function(d) {return d.y2+Math.floor(Math.random() * 8); } )
+    
+    
+    
+}
     
 </script>        
 </body>    
