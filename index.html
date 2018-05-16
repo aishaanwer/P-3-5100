@@ -1,5 +1,41 @@
 <html>
 <head>
+    
+    
+    
+<body>
+    <div id="background">
+        <div id="container">
+            <h1>Commuting at the Bay</h1>
+            <div id="bay-area" class="row">
+                <div id="controls">
+                    <p>
+                        This is place holder text for introduction and legend/use pointers
+                    </p>
+                    <p style="margin-top:-5px">
+                        place holder
+                        
+                    </p>
+                    <a id="team-control" style="display: inline-block;vertical-align: top; color: white; ">Commute<br></a>
+                     <div id="option">
+    <input id = "cButton"
+           name="updateButton" 
+           type="button" 
+           value="Commute" 
+           onclick = "Commute()"/>
+</div>
+                    
+                      
+                </div>
+
+            </div>
+            <div id="credits">
+                <br>Created by Liza Mansbach (lm573), Aisha Anwer (aa2499), Yicheng Zhu (yz2375)
+            </div>
+        </div>
+    </div>
+</body>
+
     <title>INFO 3300 - Data-driven Web Applications</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
@@ -33,16 +69,7 @@
     
     
     
-    <div id="option">
-    <input id = "cButton"
-           name="updateButton" 
-           type="button" 
-           value="Commute" 
-           onclick = "Commute()"/>
-        
-       
-
-</div>
+   
     
     <svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
      <svg  id="svg2" height="300" width="200"  > </svg>
@@ -52,10 +79,9 @@
 var width = 200,
     height = 300;
 // viewbox="80 110 150 150"
-//var graphsvg = d3.select("#body")
-//.append("svg")
-//.attr("height", height)
-//.attr("width", width)    
+
+var el = document.getElementById('cButton');
+
 var projection = d3.geoAlbersUsa().scale(3300).translate([1200,340]);
 
 //projection.scale(2000);
@@ -81,6 +107,29 @@ var svg2 = d3.select("#svg2");
     .defer(d3.csv, "example_data.csv")
     .defer(d3.csv, "transport.csv")
     .await(ready);   
+//var county_data = [];
+//console.log(d3.json, "caCountiesTopo.json")
+//d3.csv("wages.csv", function(data) {
+//    data.forEach(function(d) {
+//    d.id= d.id 
+//    d.area = +d.area;
+//    d["Annual Average Pay"] = +d["Annual Average Pay"];
+//    var county ={FIPS:d.FIPS,name:d.Area,anul_wage:d["Annual Average Pay"]}  
+//    county_data.push(county)
+//  });
+//  console.log(data);
+    //    var circle ={x:x,y:y,sat:sat,light:light}
+
+//d3.csv("wages.csv", function(d) {
+//  return {
+//    FIPS : d.FIPS,
+//    name : d.Area,
+//    anul_wage : +d["Annual Average Pay"]
+//  };
+//}, function(data) {
+//  console.log(data);
+//});    
+//    
     
 var flag = 0;
  var color = d3.scaleThreshold()
@@ -89,9 +138,22 @@ var flag = 0;
     
 var county_data = {};
 var commute_data=[];
-var all_points=[];
+var all_points=[]; 
 var county_modes=[];
 
+//var popal={};
+//     popal.name= "bab"
+//    popal.pop=900;
+    
+//    	svg.append("rect")
+//        .attr("x", 120)
+//		.attr("y", 200)
+//        .attr("fill","none") 
+//        .attr("stroke", "black")
+//		.attr("height", 10)
+//        .attr("width", 10)
+//        .style("text", function(d){ return "Home"});
+    
     
    
 function ready(error, name, wages, example_data, transport) {
@@ -289,9 +351,9 @@ transport.forEach(function(d){
     })
       
     
-       //marin(105,209) sonoma(:103 y=197) napa x:112, y:201; sf (105,215), alameda(116,215),contra costa"(115,219) 
 
-//jitter=Math.random(0,5);
+ //   console.log(all_points)
+      
     
   if (error) throw error;
      svg.append("g")
@@ -301,13 +363,9 @@ transport.forEach(function(d){
       .enter().append("path")
       .attr("d", path)
      .style("fill", function(d) {
-         if (county_data[d.id]!=undefined){
-            return color(county_data[d.id])
-         }
-         return "black"
-        console.log(d.id)
- 
-		//return color(county_data[d.id])
+//         if (d.id == "06001")
+            console.log(county_data[d.name],color(county_data[d.id]));
+		return color(county_data[d.id])
      })
       .style("stroke", "black");
      
@@ -326,40 +384,40 @@ transport.forEach(function(d){
     
 }
 
-//    d3.select("#cButton").on("click", Commute())
-//    d3.select(this).text("asdsa");
 
 
 function Commute (){
-    d3.select("input").text("New")
-    if(flag == 1){
-        Home()
+        
+    el.value = "Home";
+    if(flag == 1)
+    {
+        Home()    
         flag = 0
     }
-    else{
+    else
+    {
     svg.selectAll("circle")
-            .transition().delay(500).duration(500) // wait 1.5 sec (long enough for the previous transition to end) and then smoothly interpolate new pixel positions.
+            .transition().delay(500).duration(500) 
             .attr("cx", function(d) {return d.x1+Math.floor(Math.random() * 8); } )
             .attr("cy", function(d) {return d.y1+Math.floor(Math.random() * 8); } )
     
     flag = 1;
-    }
+    }    
+}//end foreach
     
-    
-    
-}
+
     
     function Home (){
-    d3.select("input").text("New")
-    
-    svg.selectAll("circle")
-            .transition().delay(500).duration(500) // wait 1.5 sec (long enough for the previous transition to end) and then smoothly interpolate new pixel positions.
+        el.value = "Work"
+        svg.selectAll("circle")
+            .transition().delay(500).duration(500) 
             .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
-            .attr("cy", function(d) {return d.y2+Math.floor(Math.random() * 8); } )
-    
-    
+            .attr("cy", function(d) {return d.y2+Math.floor(Math.random() * 8); } )   
     
 }
+    
+   
+
     
 </script>        
 </body>    
