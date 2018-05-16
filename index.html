@@ -65,30 +65,8 @@ var svg = d3.select("svg");
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
     .defer(d3.csv, "example_data.csv")
+    .defer(d3.csv, "ntransportation.csv")
     .await(ready);   
-//var county_data = [];
-//console.log(d3.json, "caCountiesTopo.json")
-//d3.csv("wages.csv", function(data) {
-//    data.forEach(function(d) {
-//    d.id= d.id 
-//    d.area = +d.area;
-//    d["Annual Average Pay"] = +d["Annual Average Pay"];
-//    var county ={FIPS:d.FIPS,name:d.Area,anul_wage:d["Annual Average Pay"]}  
-//    county_data.push(county)
-//  });
-//  console.log(data);
-    //    var circle ={x:x,y:y,sat:sat,light:light}
-
-//d3.csv("wages.csv", function(d) {
-//  return {
-//    FIPS : d.FIPS,
-//    name : d.Area,
-//    anul_wage : +d["Annual Average Pay"]
-//  };
-//}, function(data) {
-//  console.log(data);
-//});    
-//    
     
 var flag = 0;
  var color = d3.scaleThreshold()
@@ -99,19 +77,6 @@ var county_data = {};
 var commute_data=[];
 var all_points=[]; 
 
-//var popal={};
-//     popal.name= "bab"
-//    popal.pop=900;
-    
-//    	svg.append("rect")
-//        .attr("x", 120)
-//		.attr("y", 200)
-//        .attr("fill","none") 
-//        .attr("stroke", "black")
-//		.attr("height", 10)
-//        .attr("width", 10)
-//        .style("text", function(d){ return "Home"});
-    
     
    
 function ready(error, name, wages, example_data) {
