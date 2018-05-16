@@ -65,7 +65,7 @@ var svg = d3.select("svg");
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
     .defer(d3.csv, "example_data.csv")
-    .defer(d3.csv, "ntransportation.csv")
+    //.defer(d3.csv, "ntransportation.csv")
     .await(ready);   
     
 var flag = 0;
@@ -75,16 +75,24 @@ var flag = 0;
     
 var county_data = {};
 var commute_data=[];
-var all_points=[]; 
+var all_points=[];
+var county_modes=[];
 
     
    
 function ready(error, name, wages, example_data) {
-    console.log(wages);
     wages.forEach(function(d){
         county_data[d.id] = +d.annual_wage
     })
     
+//ntransportation.forEach(function(d){           
+//    var county={}
+//    county.name=d["county"]
+//    county.travel_mode=d["travel_mode"]
+//    county.sum=d["sum"]
+//    counties.push(county)                       
+//                            
+//                            })
  example_data.forEach(function(d){
      var county={};
      county.name=d["R County Name"]
@@ -275,9 +283,13 @@ function ready(error, name, wages, example_data) {
       .enter().append("path")
       .attr("d", path)
      .style("fill", function(d) {
-//         if (d.id == "06001")
-            console.log(county_data[d.name],color(county_data[d.id]));
-		return color(county_data[d.id])
+         if (county_data[d.id]!=undefined){
+            return color(county_data[d.id])
+         }
+         return "black"
+        console.log(d.id)
+ 
+		//return color(county_data[d.id])
      })
       .style("stroke", "black");
      
