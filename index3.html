@@ -1,13 +1,29 @@
 <html>
 <head>
-    
+<style>
+    h1
+    {
+padding: 90px;
+color:#417505;
+font-family: montserrat;
+    }
+#controls
+{margin-left: 80px;
+margin-right:80px;
+color: yellowgreen; 
+font-family: open sans;
+}
+
+</style>
+</head>    
 <body>
         <div id="container">
             <h1><center><font size="8">Commuting at the Bay</font></center></h1>
             <div id="bay-area" class="row">
                 <div id="controls">
                     <p><center><font size="6">
-                        This is place holder text for introduction and legend/use pointers
+                        The the living cost of bay area increased dramatically, more and more people made decision to move out to suburbs to lower the living cost and to maintain life quality while commute to workplace by driving or public transportation. One long term result of this is to push low-income community out of bay area while keep high-income community in center bay area like San Francisco. In the project, we gazed at people's commute direction, throughput and travel mode in bay area from residence location to working location. Also, we scanned the wage median based on county to establish the relationship geographically between salary and commute pattern.
+
                         </font></center>
                     </p>
                     <p style="margin-top:-5px">
@@ -207,7 +223,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=50
           point.y2=190
-          point.color="blue"
+          point.color="#089D9F"
           all_points.push(point);
       }
         for(i=0;i<d.Sonoma/1000;i++){
@@ -218,7 +234,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=68
           point.y2=195
-          point.color="silver"    
+          point.color="#D2A41F"    
           all_points.push(point);
       }
         for(i=0;i<d.Marin/1000;i++){
@@ -229,7 +245,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=50
           point.y2=200  
-          point.color="green" 
+          point.color="#D80934" 
           all_points.push(point)
       }
         for(i=0;i<d.SanMateo;i++){
@@ -240,7 +256,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=40
           point.y2=210  
-          point.color="darkgrey" 
+          point.color="#9F0D74" 
           all_points.push(point)
       }
         for(i=0;i<d.SanFrancisco/1000;i++){
@@ -251,7 +267,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=50
           point.y2=230 
-          point.color="red"     
+          point.color="#1FD26F"     
           all_points.push(point)
       }
         for(i=0;i<d.ContraCosta/1000;i++){
@@ -262,7 +278,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=70
           point.y2=245
-          point.color="black"       
+          point.color="#166FD8"       
           all_points.push(point)
       }
          for(i=0;i<d.Alameda/1000;i++){
@@ -273,7 +289,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=70
           point.y2=225  
-          point.color="yellow"       
+          point.color="#D2631D"       
           all_points.push(point)
       }
          for(i=0;i<d.SantaClara/1000;i++){
@@ -284,7 +300,7 @@ transport.forEach(function(d){
           point.y1 = 0
           point.x2=70
           point.y2=260
-          point.color="silver"       
+          point.color="#0BAFD2"       
           all_points.push(point)
       }
        
@@ -296,55 +312,55 @@ transport.forEach(function(d){
             {
                 d.x1 = 50
                 d.y1 = 190
-                d.color="blue"
+                d.color="#089D9F"
             }        
         if (d.origin == "Sonoma County")
             {
                 d.x1 = 68
                 d.y1 = 195
-                d.color="silver"    
+                d.color="#D2A41F"    
 
             }
         if (d.origin == "San Mateo County")
             {
                 d.x1 = 40
                 d.y1 = 250
-                d.color="orange" 
+                d.color="#9F0D74" 
 
             }
         if (d.origin == "San Francisco County")
             {
                 d.x1 = 50
                 d.y1 = 230
-                d.color="red"     
+                d.color="#1FD26F"     
 
             }
         if (d.origin == "Contra Costa County")
             {
                 d.x1 = 70
                 d.y1 = 245
-                d.color="black"       
+                d.color="#166FD8"         
 
             }
         if (d.origin == "Alameda County")
             {
                 d.x1 = 70
                 d.y1 = 225
-                d.color="yellow"       
+                d.color="#D2631D"        
 
             }
         if (d.origin == "Santa Clara County")
             {
                 d.x1 = 70
                 d.y1 = 260
-                d.color="purple"       
+                d.color="#0BAFD2"        
 
             }
         if (d.origin == "Marin County")
             {
                 d.x1 = 50
                 d.y1 = 200
-                d.color="green" 
+                d.color="#D80934"  
 
             }
     })
@@ -380,7 +396,7 @@ transport.forEach(function(d){
         .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
 		.attr("cy",function(d) { return d.y2+Math.floor(Math.random() * 8) })
 		.attr("r", "1px")
-        .attr("opacity",.2)
+        .attr("opacity",.35)
 		.attr("fill", function(d) { return d.color })
     
     
