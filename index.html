@@ -17,12 +17,13 @@
                         
                     </p>
                     <a id="team-control" style="display: inline-block;vertical-align: top; color: white; ">Commute<br></a>
-                     <div id="option">
+<div id="option">
     <input id = "cButton"
            name="updateButton" 
            type="button" 
            value="Commute" 
            onclick = "Commute()"/>
+       
 </div>
                     
                       
@@ -45,7 +46,18 @@
 <script src="https://d3js.org/d3-queue.v2.min.js"></script>
 
 <style>
-    
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	width: 75px;
+	padding: 2px;
+	font: 12px sans-serif;
+	color: white;
+	background: black;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+    }
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -72,7 +84,7 @@
    
     
     <svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
-     <svg  id="svg2" height="300" width="300"  > </svg>
+     <svg  id="svg2" height="300" width="320"  > </svg>
 
    
 <script> 
@@ -91,15 +103,16 @@ var path = d3.geoPath()
 
 
 var svg = d3.select("svg");
-    
-//var svg2 = d3.select("#svg2");
+ 
+  
      
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
     .defer(d3.csv, "example_data.csv")
-    .defer(d3.csv, "transport.csv")
     .defer(d3.csv, "alameda.csv")
+    .defer(d3.csv, "contracosta.csv")
+    .defer(d3.csv, "marin.csv")
     .await(ready);   
     
 var flag = 0;
@@ -108,7 +121,9 @@ var flag = 0;
     .range(["#A2D9CE", "#1ABC9C", "#1B4F72", "#B7950B", "#C0392B", "#1ABD8D"]);
     
 var county_data = {};
-var tester=[];
+var alameda_test=[];
+var contracosta_test=[];
+var marin_test=[];
 var commute_data=[];
 var all_points=[]; 
 var county_modes=[];
@@ -133,33 +148,54 @@ var pathp = d3.arc()
 
 var labelp = d3.arc()
     .outerRadius(radius - 40)
-    .innerRadius(radius - 60);    
+    .innerRadius(radius - 40);    
 
 //.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
     
     
  
 
-function ready(error, name, wages, example_data, transport,alameda) {
+function ready(error, name, wages, example_data, alameda,contracosta) {
     if (error) throw error;
     
     wages.forEach(function(d){
         county_data[d.id] = +d.annual_wage
     })
     
+   var allcounties_mode=[];
+    
+//    ntransportation.forEach(function(d){
+//        
+//         var mode={}
+//          mode.name=d.county
+//          mode.type=d.travel_mode
+//          mode.sum=d.sum
+//      allcounties_mode.push(mode)
+//    })
+//    console.log(allcounties_mode)
+    
   alameda.forEach(function(d){
           var mode={}
+          mode.title="Alameda County"
           mode.type=d.travel_mode
           mode.sum=d.sum
-          mode.color="#98abc5"
-      tester.push(mode)
-
-       // tester[d.travel_mode] = +d.sum
+      alameda_test.push(mode)
     })  
-    console.log(tester)
+    
+      contracosta.forEach(function(d){
+          var mode={}
+          mode.title="Contra Costa"
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+      contracosta_test.push(mode)
+    })  
+    
+    
+
+function piechart(info){
     
 var arc = g.selectAll(".arc")
-    .data(pie(tester))
+    .data(pie(info))
     .enter().append("g")
       .attr("class", "arc");
 
@@ -176,24 +212,33 @@ var arc = g.selectAll(".arc")
       .attr("dy", "0.25em")
       .text(function(d) { 
       var y=d.data
-      //console.log(y.type)
       return y.type; });
+
+    arc.append("text")
+      .attr("transform", "translate(0 70)")
+      .attr("dy", "0.25em")
+      .text(function(d) { 
+      var y=d.data    
+      return y.title; });
+            
+    
+    
+    }
+   // piechart(info)
     
     
     
-    
-    
-transport.forEach(function(d){           
-    var county={}
-    county.name=d["county"]
-    county.drove=d["Drove alone"]
-    county.carpool=d["Carpooled"]
-    county.public_transit=d["Public transportation"]
-    county.other=d["Other travel"]
-    county_modes.push(county)                       
-                            
-                            })
-    console.log(county_modes)
+//transport.forEach(function(d){           
+//    var county={}
+//    county.name=d["county"]
+//    county.drove=d["Drove alone"]
+//    county.carpool=d["Carpooled"]
+//    county.public_transit=d["Public transportation"]
+//    county.other=d["Other travel"]
+//    county_modes.push(county)                       
+//                            
+//                            })
+//    console.log(county_modes)
         
  example_data.forEach(function(d){
      var county={};
@@ -249,8 +294,8 @@ transport.forEach(function(d){
           point.dest="Marin"
           point.x1 = 0
           point.y1 = 0
-          point.x2=50
-          point.y2=200  
+          point.x2=40
+          point.y2=206  
           point.color="green" 
           all_points.push(point)
       }
@@ -364,8 +409,8 @@ transport.forEach(function(d){
             }
         if (d.origin == "Marin County")
             {
-                d.x1 = 50
-                d.y1 = 200
+                d.x1 = 40
+                d.y1 = 206
                 d.color="green" 
 
             }
@@ -380,18 +425,33 @@ transport.forEach(function(d){
      svg.append("g")
       .attr("class", "counties")
       .selectAll("path")
+      .attr("class", function(d){ return d.id; })
       .data(topojson.feature(name, name.objects.subunits).features) 
       .enter().append("path")
       .attr("d", path)
-     .style("fill", function(d) {
+      .style("fill", function(d) {
          if (county_data[d.id]!= undefined){
-            return color(county_data[d.id])
-
-         }
-         return "black";
-     })
-      .style("stroke", "black");
+            return color(county_data[d.id])}
+         return "black";})
+      .style("stroke", "black")
+    ;
      
+    svg.selectAll(".subunit")
+			  .data(topojson.feature(name, name.objects.subunits).features)
+			.enter().append("path")
+			.attr("class", function(d) { return "subunit " + d.name; })
+			.attr("d", path)
+			.on("mouseover", function(d){ //tooltip
+             console.log(d.id)
+        if (id="06001")
+             piechart(alameda_test)
+    
+    })
+
+			.on("mouseout", function(d) { 
+			
+			})
+        ;
     
     var datal = [{x: 50, y: 500}, {x: 200, y: 200}, {x: 300, y: 300}]
 
@@ -399,23 +459,33 @@ transport.forEach(function(d){
     svg.selectAll("circle")
 		.data(all_points).enter()
 		.append("circle")
-        .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
-		.attr("cy",function(d) { return d.y2+Math.floor(Math.random() * 8) })
+        .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 6); } )
+		.attr("cy",function(d) { return d.y2+Math.floor(Math.random() * 6) })
 		.attr("r", "1px")
         .attr("opacity",.2)
 		.attr("fill", function(d) { return d.color })
     
-//     svg2.append("g")
-//    //.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-//    svg2.select("rect")
-//    .data(alamedaModes)
-//    .enter().append("rect")
-      .attr("class", "bar")
-      .attr("x", 40)
-      .attr("y", 100)
-      .attr("width", 20)
-      .attr("height", 40);
+    
+    
+    
+//    svg.on("click", function () {
+//    var mouse = d3.mouse(this);
+////        console.log(mouse[0], mouse[1])
+//        svg.append("rect")
+////        .attr("transform", "translate(" + mouse[0] + "," + mouse[1] + ")scale(0)")
+//        .attr("x", mouse[0])
+//        .attr("y", mouse[1])
+//        .attr("height", 10)
+//        .attr("width", 10)
+//        .attr("fill", "#039BE5")
+//        .attr("stroke", "#039BE5")
+//        .attr("stroke-width", "1px")
+///       .remove();})
+    
 }
+
+    
+
 
 
 
@@ -431,8 +501,8 @@ function Commute (){
     {
     svg.selectAll("circle")
             .transition().delay(500).duration(500) 
-            .attr("cx", function(d) {return d.x1+Math.floor(Math.random() * 8); } )
-            .attr("cy", function(d) {return d.y1+Math.floor(Math.random() * 8); } )
+            .attr("cx", function(d) {return d.x1+Math.floor(Math.random() * 6); } )
+            .attr("cy", function(d) {return d.y1+Math.floor(Math.random() * 6); } )
     
     flag = 1;
     }    
@@ -444,8 +514,8 @@ function Commute (){
         el.value = "Work"
         svg.selectAll("circle")
             .transition().delay(500).duration(500) 
-            .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
-            .attr("cy", function(d) {return d.y2+Math.floor(Math.random() * 8); } )   
+            .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 6); } )
+            .attr("cy", function(d) {return d.y2+Math.floor(Math.random() * 6); } )   
     
 }
     
