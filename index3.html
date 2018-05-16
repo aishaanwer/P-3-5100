@@ -1,0 +1,444 @@
+<html>
+<head>
+    
+<body>
+        <div id="container">
+            <h1><center><font size="8">Commuting at the Bay</font></center></h1>
+            <div id="bay-area" class="row">
+                <div id="controls">
+                    <p><center><font size="6">
+                        This is place holder text for introduction and legend/use pointers
+                        </font></center>
+                    </p>
+                    <p style="margin-top:-5px">
+                        place holder
+                        
+                    </p>
+                    <a id="team-control" style="display: inline-block;vertical-align: top; color: white; ">Commute<br></a>
+                     <div id="option">
+            <input id = "cButton"
+                   name="updateButton" 
+                   type="button" 
+                   value="Commute" 
+                   onclick = "Commute()"/>
+</div>
+                    
+ 
+                      
+                </div>
+
+            </div>
+            <div id="credits"><div class="footer"><font size = "5">Created by Liza Mansbach (lm573), Aisha Anwer (aa2499), Yicheng Zhu (yz2375)</font></div>
+                <br>
+            </div>
+        </div>
+</body>
+
+    <title>INFO 3300 - Data-driven Web Applications</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/d3-queue.v2.min.js"></script>
+
+<style>
+    
+button#cButton {
+  background: none;
+  border: none;
+  float: left;
+  display: inline;
+}
+    
+    .footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   } 
+    path {
+      fill: none;
+      stroke: #000;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+    }
+</style>
+</head>  
+<body>
+    
+    
+<svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
+<svg  id="svg2" height="300" width="200"  > </svg>
+
+   
+<script> 
+var width = 200,
+    height = 300;
+// viewbox="80 110 150 150"
+
+var el = document.getElementById('cButton');
+
+var projection = d3.geoAlbersUsa().scale(3300).translate([1200,340]);
+console.log(projection)
+//projection.scale(2000);
+var path = d3.geoPath()
+    .projection(projection);
+    
+//var x = projection( d.geometry.coordinates )[0];
+//      var y = projection( d.geometry.coordinates )[1];
+
+
+var svg = d3.select("svg");
+    
+var svg2 = d3.select("#svg2");
+    
+//svg2.append("circle")
+//    .attr("cx", 100  )
+//    .attr("cy",100 )
+//    .attr("r", "10px")
+//    .attr("opacity",.2)
+//    .attr("fill", "black")
+//    
+ d3.queue()
+    .defer(d3.json, "caCountiesTopo.json") 
+    .defer(d3.csv, "wages.csv")
+    .defer(d3.csv, "example_data.csv")
+    .defer(d3.csv, "transport.csv")
+    .await(ready);   
+//var county_data = [];
+//console.log(d3.json, "caCountiesTopo.json")
+//d3.csv("wages.csv", function(data) {
+//    data.forEach(function(d) {
+//    d.id= d.id 
+//    d.area = +d.area;
+//    d["Annual Average Pay"] = +d["Annual Average Pay"];
+//    var county ={FIPS:d.FIPS,name:d.Area,anul_wage:d["Annual Average Pay"]}  
+//    county_data.push(county)
+//  });
+//  console.log(data);
+    //    var circle ={x:x,y:y,sat:sat,light:light}
+
+//d3.csv("wages.csv", function(d) {
+//  return {
+//    FIPS : d.FIPS,
+//    name : d.Area,
+//    anul_wage : +d["Annual Average Pay"]
+//  };
+//}, function(data) {
+//  console.log(data);
+//});    
+//    
+    
+var flag = 0;
+ var color = d3.scaleThreshold()
+    .domain([40000,60000,80000,100000,120000])
+    .range(["#D3FFA0", "#BEFA78", "#FFEB8B", "#FFDE57", "#FFAFA6", "#FCB7C0"]);    
+    
+var county_data = {};
+var commute_data=[];
+var all_points=[]; 
+var county_modes=[];
+
+//var popal={};
+//     popal.name= "bab"
+//    popal.pop=900;
+    
+//    	svg.append("rect")
+//        .attr("x", 120)
+//		.attr("y", 200)
+//        .attr("fill","none") 
+//        .attr("stroke", "black")
+//		.attr("height", 10)
+//        .attr("width", 10)
+//        .style("text", function(d){ return "Home"});
+    
+    
+   
+function ready(error, name, wages, example_data, transport) {
+    wages.forEach(function(d){
+        county_data[d.id] = +d.annual_wage
+    })
+    
+transport.forEach(function(d){           
+    var county={}
+    county.name=d["county"]
+    county.drove=d["Drove alone"]
+    county.carpool=d["Carpooled"]
+    county.public_transit=d["Public transportation"]
+    county.other=d["Other travel"]
+    county_modes.push(county)                       
+                            
+                            })
+    console.log(county_modes)
+    
+    
+ example_data.forEach(function(d){
+     var county={};
+     county.name=d["R County Name"]
+     county.id=d["R County FIPS Code"]
+     county.workerTotal=d["Workers in Total"]
+     county.Napa=d["Napa"]
+     county.Sonoma=d["Sonoma"]
+     county.Marin=d["Marin"]
+     county.SanFrancisco=d["San Fran"]
+     county.ContraCosta=d["Contra Costa"]
+     county.Alameda=d["Alameda"]
+     county.SantaClara=d["S Clara"]
+     county.SanMateo=d["S Mateo"]
+     county.x=105
+     county.y=209
+     commute_data.push(county);
+//     console.log(commute_data)
+    //commute_data[d["R County Name"]]=county;
+    //commute_data[d["R County Name"]] = +d["Workers in Commuting Flow"]
+
+     //console.log(d["R County Name"])
+        //commute_data[d.id] = +d.workers_in
+    }) 
+    
+    commute_data.forEach(function(d){
+
+      for(i=0;i<d.Napa/1000;i++){
+          var point={}
+          point.origin=d.name
+          point.dest="Napa"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=50
+          point.y2=190
+          point.color="blue"
+          all_points.push(point);
+      }
+        for(i=0;i<d.Sonoma/1000;i++){
+          var point={}
+          point.origin=d.name;
+          point.dest="Sonoma"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=68
+          point.y2=195
+          point.color="silver"    
+          all_points.push(point);
+      }
+        for(i=0;i<d.Marin/1000;i++){
+          var point={}    
+          point.origin=d.name;
+          point.dest="Marin"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=50
+          point.y2=200  
+          point.color="green" 
+          all_points.push(point)
+      }
+        for(i=0;i<d.SanMateo;i++){
+          var point={}    
+          point.origin=d.name;
+          point.dest="San Mateo"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=40
+          point.y2=210  
+          point.color="darkgrey" 
+          all_points.push(point)
+      }
+        for(i=0;i<d.SanFrancisco/1000;i++){
+          var point={}    
+          point.origin=d.name;
+          point.dest="San Francisco"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=50
+          point.y2=230 
+          point.color="red"     
+          all_points.push(point)
+      }
+        for(i=0;i<d.ContraCosta/1000;i++){
+         var point={}
+          point.origin=d.name;
+          point.dest="Contra Costa"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=70
+          point.y2=245
+          point.color="black"       
+          all_points.push(point)
+      }
+         for(i=0;i<d.Alameda/1000;i++){
+          var point={}
+          point.origin=d.name;
+          point.dest="Alameda"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=70
+          point.y2=225  
+          point.color="yellow"       
+          all_points.push(point)
+      }
+         for(i=0;i<d.SantaClara/1000;i++){
+          var point={}
+          point.origin=d.name;
+          point.dest="Santa Clara"
+          point.x1 = 0
+          point.y1 = 0
+          point.x2=70
+          point.y2=260
+          point.color="silver"       
+          all_points.push(point)
+      }
+       
+    })   
+    
+    
+    all_points.forEach(function(d){
+        if (d.origin == "Napa County")
+            {
+                d.x1 = 50
+                d.y1 = 190
+                d.color="blue"
+            }        
+        if (d.origin == "Sonoma County")
+            {
+                d.x1 = 68
+                d.y1 = 195
+                d.color="silver"    
+
+            }
+        if (d.origin == "San Mateo County")
+            {
+                d.x1 = 40
+                d.y1 = 250
+                d.color="orange" 
+
+            }
+        if (d.origin == "San Francisco County")
+            {
+                d.x1 = 50
+                d.y1 = 230
+                d.color="red"     
+
+            }
+        if (d.origin == "Contra Costa County")
+            {
+                d.x1 = 70
+                d.y1 = 245
+                d.color="black"       
+
+            }
+        if (d.origin == "Alameda County")
+            {
+                d.x1 = 70
+                d.y1 = 225
+                d.color="yellow"       
+
+            }
+        if (d.origin == "Santa Clara County")
+            {
+                d.x1 = 70
+                d.y1 = 260
+                d.color="purple"       
+
+            }
+        if (d.origin == "Marin County")
+            {
+                d.x1 = 50
+                d.y1 = 200
+                d.color="green" 
+
+            }
+    })
+      
+    
+
+ //   console.log(all_points)
+      
+    
+  if (error) throw error;
+     svg.append("g")
+      .attr("class", "counties")
+      .selectAll("path")
+      .data(topojson.feature(name, name.objects.subunits).features) 
+      .enter().append("path")
+      .attr("d", path)
+     .style("fill", function(d) {
+         if (county_data[d.id]!= undefined){
+            return color(county_data[d.id])
+
+         }
+         return "grey";
+     })
+      .style("stroke", "black");
+     
+    
+    var datal = [{x: 50, y: 500}, {x: 200, y: 200}, {x: 300, y: 300}]
+
+
+    svg.selectAll("circle")
+		.data(all_points).enter()
+		.append("circle")
+        .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
+		.attr("cy",function(d) { return d.y2+Math.floor(Math.random() * 8) })
+		.attr("r", "1px")
+        .attr("opacity",.2)
+		.attr("fill", function(d) { return d.color })
+    
+    
+    svg.on("click", function () {
+    var mouse = d3.mouse(this);
+//        console.log(mouse[0], mouse[1])
+    svg
+        .append("rect")
+//        .attr("transform", "translate(" + mouse[0] + "," + mouse[1] + ")scale(0)")
+        .attr("x", mouse[0])
+        .attr("y", mouse[1])
+        .attr("height", 10)
+        .attr("width", 10)
+        .attr("fill", "#039BE5")
+        .attr("stroke", "#039BE5")
+        .attr("stroke-width", "1px")
+//        .remove();
+    
+})
+}
+           
+
+
+
+function Commute (){
+        
+    el.value = "Home";
+    if(flag == 1)
+    {
+        Home()    
+        flag = 0
+    }
+    else
+    {
+    svg.selectAll("circle")
+            .transition().delay(500).duration(500) 
+            .attr("cx", function(d) {return d.x1+Math.floor(Math.random() * 8); } )
+            .attr("cy", function(d) {return d.y1+Math.floor(Math.random() * 8); } )
+    
+    flag = 1;
+    }    
+}//end foreach
+    
+
+    
+    function Home (){
+        el.value = "Work"
+        svg.selectAll("circle")
+            .transition().delay(500).duration(500) 
+            .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
+            .attr("cy", function(d) {return d.y2+Math.floor(Math.random() * 8); } )   
+    
+}
+    
+
+
+
+    
+</script>        
+</body>    
+</html>
