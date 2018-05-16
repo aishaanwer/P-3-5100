@@ -44,12 +44,18 @@
 
 </div>
     
-    <svg height="700" width="700"  viewbox="5 155 120 140" > </svg>
+    <svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
+     <svg  id="svg2" height="300" width="200"  > </svg>
+
    
 <script> 
-//var width = 500,
-//    height = 500;
+var width = 200,
+    height = 300;
 // viewbox="80 110 150 150"
+//var graphsvg = d3.select("#body")
+//.append("svg")
+//.attr("height", height)
+//.attr("width", width)    
 var projection = d3.geoAlbersUsa().scale(3300).translate([1200,340]);
 
 //projection.scale(2000);
@@ -57,15 +63,23 @@ var path = d3.geoPath()
     .projection(projection);
     
 
+
 var svg = d3.select("svg");
     
-
+var svg2 = d3.select("#svg2");
     
+//svg2.append("circle")
+//    .attr("cx", 100  )
+//    .attr("cy",100 )
+//    .attr("r", "10px")
+//    .attr("opacity",.2)
+//    .attr("fill", "black")
+//    
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
     .defer(d3.csv, "example_data.csv")
-    //.defer(d3.csv, "ntransportation.csv")
+    .defer(d3.csv, "transport.csv")
     .await(ready);   
     
 var flag = 0;
@@ -80,19 +94,24 @@ var county_modes=[];
 
     
    
-function ready(error, name, wages, example_data) {
+function ready(error, name, wages, example_data, transport) {
     wages.forEach(function(d){
         county_data[d.id] = +d.annual_wage
     })
     
-//ntransportation.forEach(function(d){           
-//    var county={}
-//    county.name=d["county"]
-//    county.travel_mode=d["travel_mode"]
-//    county.sum=d["sum"]
-//    counties.push(county)                       
-//                            
-//                            })
+transport.forEach(function(d){           
+    var county={}
+    county.name=d["county"]
+    county.drove=d["Drove alone"]
+    county.carpool=d["Carpooled"]
+    county.public_transit=d["Public transportation"]
+    county.other=d["Other travel"]
+    county_modes.push(county)                       
+                            
+                            })
+    console.log(county_modes)
+    
+    
  example_data.forEach(function(d){
      var county={};
      county.name=d["R County Name"]
@@ -270,7 +289,6 @@ function ready(error, name, wages, example_data) {
     })
       
     
-    console.log(all_points)
        //marin(105,209) sonoma(:103 y=197) napa x:112, y:201; sf (105,215), alameda(116,215),contra costa"(115,219) 
 
 //jitter=Math.random(0,5);
