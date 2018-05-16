@@ -363,9 +363,11 @@ transport.forEach(function(d){
       .enter().append("path")
       .attr("d", path)
      .style("fill", function(d) {
-//         if (d.id == "06001")
-            console.log(county_data[d.name],color(county_data[d.id]));
-		return color(county_data[d.id])
+         if (county_data[d.id]!= undefined){
+            return color(county_data[d.id])
+
+         }
+         return "black";
      })
       .style("stroke", "black");
      
