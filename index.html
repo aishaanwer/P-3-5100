@@ -72,7 +72,7 @@
    
     
     <svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
-     <svg  id="svg2" height="300" width="200"  > </svg>
+     <svg  id="svg2" height="300" width="300"  > </svg>
 
    
 <script> 
@@ -92,44 +92,15 @@ var path = d3.geoPath()
 
 var svg = d3.select("svg");
     
-var svg2 = d3.select("#svg2");
-    
-//svg2.append("circle")
-//    .attr("cx", 100  )
-//    .attr("cy",100 )
-//    .attr("r", "10px")
-//    .attr("opacity",.2)
-//    .attr("fill", "black")
-//    
+//var svg2 = d3.select("#svg2");
+     
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
     .defer(d3.csv, "example_data.csv")
     .defer(d3.csv, "transport.csv")
+    .defer(d3.csv, "alameda.csv")
     .await(ready);   
-//var county_data = [];
-//console.log(d3.json, "caCountiesTopo.json")
-//d3.csv("wages.csv", function(data) {
-//    data.forEach(function(d) {
-//    d.id= d.id 
-//    d.area = +d.area;
-//    d["Annual Average Pay"] = +d["Annual Average Pay"];
-//    var county ={FIPS:d.FIPS,name:d.Area,anul_wage:d["Annual Average Pay"]}  
-//    county_data.push(county)
-//  });
-//  console.log(data);
-    //    var circle ={x:x,y:y,sat:sat,light:light}
-
-//d3.csv("wages.csv", function(d) {
-//  return {
-//    FIPS : d.FIPS,
-//    name : d.Area,
-//    anul_wage : +d["Annual Average Pay"]
-//  };
-//}, function(data) {
-//  console.log(data);
-//});    
-//    
     
 var flag = 0;
  var color = d3.scaleThreshold()
@@ -137,29 +108,80 @@ var flag = 0;
     .range(["#A2D9CE", "#1ABC9C", "#1B4F72", "#B7950B", "#C0392B", "#1ABD8D"]);
     
 var county_data = {};
+var tester=[];
 var commute_data=[];
 var all_points=[]; 
 var county_modes=[];
 
-//var popal={};
-//     popal.name= "bab"
-//    popal.pop=900;
     
-//    	svg.append("rect")
-//        .attr("x", 120)
-//		.attr("y", 200)
-//        .attr("fill","none") 
-//        .attr("stroke", "black")
-//		.attr("height", 10)
-//        .attr("width", 10)
-//        .style("text", function(d){ return "Home"});
+    //pie chart stuff
+    var colorpie = d3.scaleOrdinal(["#98abc5", "#d0743c", "#7b6888", "#a05d56"]);
+
+var svg2 = d3.select("#svg2"),
+    width = +svg2.attr("width"),
+    height = +svg2.attr("height"),
+    radius = Math.min(width, height) / 2,
+   g = svg2.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+var pie = d3.pie()
+    .sort(null)
+    .value(function(d) { return d.sum; });
+
+var pathp = d3.arc()
+    .outerRadius(radius - 10)
+    .innerRadius(0);
+
+var labelp = d3.arc()
+    .outerRadius(radius - 40)
+    .innerRadius(radius - 60);    
+
+//.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
     
     
-   
-function ready(error, name, wages, example_data, transport) {
+ 
+
+function ready(error, name, wages, example_data, transport,alameda) {
+    if (error) throw error;
+    
     wages.forEach(function(d){
         county_data[d.id] = +d.annual_wage
     })
+    
+  alameda.forEach(function(d){
+          var mode={}
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+          mode.color="#98abc5"
+      tester.push(mode)
+
+       // tester[d.travel_mode] = +d.sum
+    })  
+    console.log(tester)
+    
+var arc = g.selectAll(".arc")
+    .data(pie(tester))
+    .enter().append("g")
+      .attr("class", "arc");
+
+  arc.append("path")
+      .attr("d", pathp)
+      .style("fill", function (d){
+     var y=d.data
+      return colorpie(y.sum); 
+ })
+    ;
+
+  arc.append("text")
+      .attr("transform", function(d) { return "translate(" + labelp.centroid(d) + ")"; })
+      .attr("dy", "0.25em")
+      .text(function(d) { 
+      var y=d.data
+      //console.log(y.type)
+      return y.type; });
+    
+    
+    
+    
     
 transport.forEach(function(d){           
     var county={}
@@ -172,8 +194,7 @@ transport.forEach(function(d){
                             
                             })
     console.log(county_modes)
-    
-    
+        
  example_data.forEach(function(d){
      var county={};
      county.name=d["R County Name"]
@@ -355,7 +376,7 @@ transport.forEach(function(d){
  //   console.log(all_points)
       
     
-  if (error) throw error;
+  
      svg.append("g")
       .attr("class", "counties")
       .selectAll("path")
@@ -384,6 +405,16 @@ transport.forEach(function(d){
         .attr("opacity",.2)
 		.attr("fill", function(d) { return d.color })
     
+//     svg2.append("g")
+//    //.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+//    svg2.select("rect")
+//    .data(alamedaModes)
+//    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", 40)
+      .attr("y", 100)
+      .attr("width", 20)
+      .attr("height", 40);
 }
 
 
