@@ -1,0 +1,74 @@
+<html>
+<head>
+        <script src="//d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+<script>
+
+
+var dataset =[];
+var counties=[];
+d3.csv("ntransportation.csv"
+, function(data) {
+    data.forEach(function(d){
+    var county={}
+    county.name=d["county"]
+    county.travel_mode=d["travel_mode"]
+    county.sum=d["sum"]
+    counties.push(county)
+
+    })
+    
+    console.log(data[0]);}
+   );
+console.log(counties)
+
+
+// counties.forEach(function(d, i){
+// console.log(d.sum[i])})
+
+// }
+// for (var i=0; i<8 ; i++)
+// {
+// dataset = + counties [i *4];
+// dataset = + counties [i *4+1];
+// dataset = + counties [i *4+2];
+// dataset = + counties [i *4+3];
+// }
+
+
+var w = 500;
+var h = 500;
+var barpadding = 10;
+
+// d3.select("body").selectAll("div")
+//                 .data(dataset)
+//                 .enter()
+//                 .append("div")
+//                 .attr("class", "bar")
+//                 .style("height", function(d) {
+//                     var barHeight = d * 5;
+//                     return barHeight + "px";
+//                 });
+
+var svg = d3.select("body")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+svg.selectAll("rect")
+   .data(dataset)
+   .enter()
+   .append("rect")
+   .attr("x", function(d, i) {
+    return i * ((w/ dataset.length - barpadding)+barpadding);  
+})
+   .attr("y", function(d) {
+    return h - d;  
+})
+   .attr("width", w/ dataset.length - barpadding)
+   .attr("height", function(d){return d*4;});
+
+</script>
+</body>
+</html>
