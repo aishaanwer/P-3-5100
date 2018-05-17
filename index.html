@@ -16,7 +16,7 @@
                         place holder
                         
                     </p>
-                    <a id="team-control" style="display: inline-block;vertical-align: top; color: white; ">Commute<br></a>
+        <a id="team-control" style="display: inline-block;vertical-align: top; color: white; ">Commute<br></a>
 <div id="option">
     <input id = "cButton"
            name="updateButton" 
@@ -49,11 +49,12 @@
 div.tooltip {
 	position: absolute;
 	text-align: center;
-	width: 75px;
+	width: 400px;
+    height:400px;
 	padding: 2px;
 	font: 12px sans-serif;
-	color: white;
-	background: black;
+	color: black;
+	background: white;
 	border: 0px;
 	border-radius: 8px;
 	pointer-events: none;
@@ -68,7 +69,9 @@ div.tooltip {
     display: inline-block;
     font-size: 16px;
 }
-    
+    .hide{
+        display:none;
+    }   
     path {
       fill: none;
       stroke: #000;
@@ -82,11 +85,14 @@ div.tooltip {
     
     
    
-    
+  
     <svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
-     <svg  id="svg2" height="300" width="320"  > </svg>
+     
+    
+        <svg id="svg2" height="300" width="300"   > </svg>
+  <div id="map"> 
 
-   
+    </div>
 <script> 
 var width = 200,
     height = 300;
@@ -103,8 +109,7 @@ var path = d3.geoPath()
 
 
 var svg = d3.select("svg");
- 
-  
+
      
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
@@ -113,6 +118,11 @@ var svg = d3.select("svg");
     .defer(d3.csv, "alameda.csv")
     .defer(d3.csv, "contracosta.csv")
     .defer(d3.csv, "marin.csv")
+    .defer(d3.csv, "sanmateo.csv")
+    .defer(d3.csv, "sanfrancisco.csv")
+    .defer(d3.csv, "santaclara.csv")
+    .defer(d3.csv, "sonoma.csv")
+    .defer(d3.csv, "napa.csv")
     .await(ready);   
     
 var flag = 0;
@@ -121,9 +131,14 @@ var flag = 0;
     .range(["#A2D9CE", "#1ABC9C", "#1B4F72", "#B7950B", "#C0392B", "#1ABD8D"]);
     
 var county_data = {};
-var alameda_test=[];
-var contracosta_test=[];
-var marin_test=[];
+var alameda_pie=[];
+var contracosta_pie=[];
+var marin_pie=[];
+var sanmateo_pie=[]; 
+var sanfrancisco_pie=[];
+var santaclara_pie=[];
+var sonoma_pie=[];
+var napa_pie=[];
 var commute_data=[];
 var all_points=[]; 
 var county_modes=[];
@@ -131,11 +146,12 @@ var county_modes=[];
     
     //pie chart stuff
     var colorpie = d3.scaleOrdinal(["#98abc5", "#d0743c", "#7b6888", "#a05d56"]);
+    
 
 var svg2 = d3.select("#svg2"),
     width = +svg2.attr("width"),
     height = +svg2.attr("height"),
-    radius = Math.min(width, height) / 2,
+    radius = Math.min(width, height) / 2.1,
    g = svg2.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var pie = d3.pie()
@@ -147,63 +163,136 @@ var pathp = d3.arc()
     .innerRadius(0);
 
 var labelp = d3.arc()
-    .outerRadius(radius - 40)
-    .innerRadius(radius - 40);    
+    .outerRadius(radius-70 )
+    .innerRadius(radius-20 );
 
 //.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
     
-    
+      d3.select("#map").append("div")
+			.attr("class", "tooltip")
+			.style("opacity", 1 );   
  
 
-function ready(error, name, wages, example_data, alameda,contracosta) {
+function ready(error, name, wages, example_data, alameda,contracosta,marin,sanmateo,sanfrancisco,santaclara,sonoma,napa) {
     if (error) throw error;
     
     wages.forEach(function(d){
         county_data[d.id] = +d.annual_wage
     })
     
-   var allcounties_mode=[];
     
-//    ntransportation.forEach(function(d){
-//        
-//         var mode={}
-//          mode.name=d.county
-//          mode.type=d.travel_mode
-//          mode.sum=d.sum
-//      allcounties_mode.push(mode)
-//    })
-//    console.log(allcounties_mode)
-    
-  alameda.forEach(function(d){
+//turn each csv into an array for pie chart    
+alameda.forEach(function(d){
           var mode={}
           mode.title="Alameda County"
           mode.type=d.travel_mode
           mode.sum=d.sum
-      alameda_test.push(mode)
+      alameda_pie.push(mode)
     })  
-    
-      contracosta.forEach(function(d){
+    console.log(alameda_pie)
+contracosta.forEach(function(d){
           var mode={}
-          mode.title="Contra Costa"
+          mode.title=d.county
           mode.type=d.travel_mode
           mode.sum=d.sum
-      contracosta_test.push(mode)
+      contracosta_pie.push(mode)
+    })     
+  marin.forEach(function(d){
+          var mode={}
+          mode.title= d.county
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+      marin_pie.push(mode)
+    })     
+  sanmateo.forEach(function(d){
+          var mode={}
+          mode.title= d.county
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+      sanmateo_pie.push(mode)
+    })   
+ sanfrancisco.forEach(function(d){
+          var mode={}
+          mode.title= d.county
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+      sanfrancisco_pie.push(mode)
     })  
-    
-    
+ santaclara.forEach(function(d){
+          var mode={}
+          mode.title= d.county
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+      santaclara_pie.push(mode)
+    })      
+    console.log(santaclara_pie)
+sonoma.forEach(function(d){
+          var mode={}
+          mode.title= d.county
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+      sonoma_pie.push(mode)
+    }) 
+napa.forEach(function(d){
+          var mode={}
+          mode.title= d.county
+          mode.type=d.travel_mode
+          mode.sum=d.sum
+      napa_pie.push(mode)
+    })  
 
-function piechart(info){
-    
-var arc = g.selectAll(".arc")
+ var arc
+//piechart function    
+function piechart(name){
+        
+     var info
+   try{
+            if(name=="Santa Clara"){
+                      info=santaclara_pie
+                  }
+                if(name=="Sonoma"){
+                    console.log("in sonoma")
+                      info=sonoma_pie
+                  }
+                 if(name=="Napa"){
+                      info=napa_pie
+                  }
+                  if(name=="Alameda"){
+                       info= alameda_pie
+                       }
+                 if(name=="Contra Costa"){
+                     info=contracosta_pie
+                       }
+                 if(name=="Marin"){
+                     info=marin_pie
+                       }
+                 if(name=="San Francisco"){
+                      info=sanfrancisco_pie
+                  }
+                if(name=="San Mateo"){
+                      info=sanmateo_pie
+                  }
+
+console.log( "creating chart")
+
+
+ arc = g.selectAll("arc")
     .data(pie(info))
     .enter().append("g")
-      .attr("class", "arc");
-
+    .attr("class", "arc")
+    ;
+arc.transition()
+    .style("opacity",.1)
+    .duration(1000)
+   
   arc.append("path")
       .attr("d", pathp)
+       
       .style("fill", function (d){
      var y=d.data
       return colorpie(y.sum); 
+
+    
  })
     ;
 
@@ -211,35 +300,42 @@ var arc = g.selectAll(".arc")
       .attr("transform", function(d) { return "translate(" + labelp.centroid(d) + ")"; })
       .attr("dy", "0.25em")
       .text(function(d) { 
-      var y=d.data
+        var y=d.data
+      if(y.type=="Public Transporation"){
+         return "Public Transit"
+         }
+        
+        
       return y.type; });
 
     arc.append("text")
-      .attr("transform", "translate(0 70)")
+      .attr("transform", "translate(-25 -142)")
       .attr("dy", "0.25em")
       .text(function(d) { 
       var y=d.data    
       return y.title; });
-            
     
-    
-    }
-   // piechart(info)
-    
-    
-    
-//transport.forEach(function(d){           
-//    var county={}
-//    county.name=d["county"]
-//    county.drove=d["Drove alone"]
-//    county.carpool=d["Carpooled"]
-//    county.public_transit=d["Public transportation"]
-//    county.other=d["Other travel"]
-//    county_modes.push(county)                       
-//                            
-//                            })
-//    console.log(county_modes)
+}
+    catch{
         
+}
+            
+}
+    
+//function remove_piechart(info){
+//    arc.selectAll("arc")
+//     arc.transition().duration(750)
+//     
+//   arc.exit().remove()
+//    }
+    
+//    	function arcTween(a) {
+//			  var i = d3.interpolate(this._current, a);
+//			  this._current = i(0);
+//			  return function(t) {
+//			    return pathp(i(t));
+//			  };
+//			}
  example_data.forEach(function(d){
      var county={};
      county.name=d["R County Name"]
@@ -415,11 +511,7 @@ var arc = g.selectAll(".arc")
 
             }
     })
-      
-    
-
- //   console.log(all_points)
-      
+            
     
   
      svg.append("g")
@@ -435,27 +527,32 @@ var arc = g.selectAll(".arc")
          return "black";})
       .style("stroke", "black")
     ;
-     
-    svg.selectAll(".subunit")
-			  .data(topojson.feature(name, name.objects.subunits).features)
-			.enter().append("path")
-			.attr("class", function(d) { return "subunit " + d.name; })
-			.attr("d", path)
-			.on("mouseover", function(d){ //tooltip
-             console.log(d.id)
-        if (id="06001")
-             piechart(alameda_test)
+     var pie_data 
+     var newflag= 0;
     
-    })
 
-			.on("mouseout", function(d) { 
-			
-			})
+
+    svg.selectAll("g")
+        .attr("class", "counties")
+        .data(topojson.feature(name, name.objects.subunits).features)
+        .enter().append("path")
+        .attr("d", path)
+        .on('mouseover',function(d){
+               piechart(d.properties.name)
+                   
+                  })
+            .on('mouseout',function(d){
+               arc.transition()
+					.delay(1000)
+					.style("opacity", 0.0);
+               // arc.remove().exit()
+               
+         
+                  })
         ;
     
-    var datal = [{x: 50, y: 500}, {x: 200, y: 200}, {x: 300, y: 300}]
 
-
+ 
     svg.selectAll("circle")
 		.data(all_points).enter()
 		.append("circle")
@@ -464,31 +561,13 @@ var arc = g.selectAll(".arc")
 		.attr("r", "1px")
         .attr("opacity",.2)
 		.attr("fill", function(d) { return d.color })
-    
-    
-    
-    
-//    svg.on("click", function () {
-//    var mouse = d3.mouse(this);
-////        console.log(mouse[0], mouse[1])
-//        svg.append("rect")
-////        .attr("transform", "translate(" + mouse[0] + "," + mouse[1] + ")scale(0)")
-//        .attr("x", mouse[0])
-//        .attr("y", mouse[1])
-//        .attr("height", 10)
-//        .attr("width", 10)
-//        .attr("fill", "#039BE5")
-//        .attr("stroke", "#039BE5")
-//        .attr("stroke-width", "1px")
-///       .remove();})
-    
+
 }
-
+    
+    
     
 
-
-
-
+    
 function Commute (){
         
     el.value = "Home";

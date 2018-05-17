@@ -1,5 +1,5 @@
-﻿travel_mode,sum,name
- Drove alone,417210,Alameda County
- Carpooled,64930,Alameda County
-Public transportation,82102,Alameda County
-Other travel mode,82740,Alameda County
+﻿travel_mode,sum,county
+Drove,417210,Alameda County
+Carpool,64930,Alameda County
+Transit,82102,Alameda County
+Other,82740,Alameda County
