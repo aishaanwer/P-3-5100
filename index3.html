@@ -1,76 +1,65 @@
 <html>
 <head>
-<style>
-    h1
-    {
-padding: 90px;
-color:#417505;
-font-family: montserrat;
-    }
-#controls
-{margin-left: 80px;
-margin-right:80px;
-color: yellowgreen; 
-font-family: open sans;
-}
-
-</style>
-</head>    
+    
 <body>
         <div id="container">
-            <h1><center><font size="8">Commuting at the Bay Area</font></center></h1>
+            <h1><center><font size="8">Commuters at the Bay</font></center></h1>
             <div id="bay-area" class="row">
                 <div id="controls">
-                    <p><center><font size="6">
-                        The the living cost of bay area increased dramatically, more and more people made decision to move out to suburbs to lower the living cost and to maintain life quality while commute to workplace by driving or public transportation. One long term result of this is to push low-income community out of bay area while keep high-income community in center bay area like San Francisco. In the project, we gazed at people's commute direction, throughput and travel mode in bay area from residence location to working location. Also, we scanned the wage median based on county to establish the relationship geographically between salary and commute pattern.
-
-                        </font></center>
+                    <p align="center"><font size="6">
+                    The the living cost of bay area increased dramatically, more and more people are choosing to live in suburbs to lower <br>
+                    the living cost and to maintain life quality while commuting to workplace by driving or public transportation. One<br>
+                    overtime result of this is the migration of low-income community away from central bay area while e.g. San Francisco.<br>
+                    This visualization looks at people's commute pattern among counties and travel modes in bay area from residential to<br> 
+                    work counties and back. Also, we scanned the wages based on county to establish the relationship geographically <br>
+                    between salary and commute pattern.
+                        </font>
                     </p>
-                    
-                   
-                     <div id="option">
+            <div id="option">
+            <label id="commutepattern">Click to see Commuting Patterns to:
+
             <input id = "cButton"
                    name="updateButton" 
                    type="button" 
                    value="Commute" 
                    onclick = "Commute()"/>
-</div>
-                    
- 
-                      
-                </div>
-
+                </label>    
             </div>
-            <div id="credits"><div class="footer"><font size = "5">Created by Liza Mansbach (lm573), Aisha Anwer (aa2499), Yicheng Zhu (yz2375)</font></div>
+            <br><br>                   
+            </div>
+            </div>
+            <br><br>
+            <div id="credits"><div class="footer"><font size = "5">Created by Liza Mansbach(lm573), Aisha Anwer(aa2499), Yicheng Zhu(yz2375)</font></div>
                 <br>
             </div>
         </div>
-    <div class ="clegend"></div>
 </body>
 
-    <title>INFO 3300 - Data-driven Web Applications</title>
+    <title>Project 3 - Bay Area Commute Patterns</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 <script src="https://d3js.org/d3-queue.v2.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
 
 <style>
     
-button#cButton {
-  background: none;
-  border: none;
-  float: left;
-  display: inline;
+input[type="button"]{
+    background-color: #555;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 90px;
+    position: absolute;
+    top: 550px;
+    left: 800px ;
+    font-size: 30px
 }
     
     .footer{ 
-       margin-top:100px;
-        position:fixed;   
-       text-align: right;    
-       bottom: -5px; 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
        width: 100%;
    } 
     path {
@@ -79,6 +68,31 @@ button#cButton {
       stroke-linejoin: round;
       stroke-linecap: round;
     }
+    
+    
+     h1
+    {
+        padding: 90px;
+        color:#417505;
+        font-family: open sans;
+    }
+#controls
+{
+    margin-left: 80px;
+    margin-right:80px;
+    color: yellowgreen; 
+    font-family: open sans;
+}
+#commutepattern {
+    margin-left: 200px;
+    margin-right:80px;
+    display: inline-block;
+    color: grey; 
+    font-family: open sans;
+    font-size: 30px;
+    color:#417505;
+}
+
 </style>
 </head>  
 <body>
@@ -87,65 +101,31 @@ button#cButton {
 <svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
 <svg  id="svg2" height="200" width="200"  > </svg>
 <svg id="svg3" height="80" width="2000"> </svg>
+
+
    
 <script> 
 var width = 200,
-    height = 300,
-    active;
-// viewbox="80 110 150 150"
+    height = 300;
 
-var el = document.getElementById('cButton');
+var lab = document.getElementById('cButton');
 
 var projection = d3.geoAlbersUsa().scale(3300).translate([1200,340]);
-console.log(projection)
-//projection.scale(2000);
 var path = d3.geoPath()
     .projection(projection);
-    
-//var x = projection( d.geometry.coordinates )[0];
-//      var y = projection( d.geometry.coordinates )[1];
-
 
 var svg = d3.select("svg");
     
 var svg2 = d3.select("#svg2");
     
-//svg2.append("circle")
-//    .attr("cx", 100  )
-//    .attr("cy",100 )
-//    .attr("r", "10px")
-//    .attr("opacity",.2)
-//    .attr("fill", "black")
-//    
+   
  d3.queue()
     .defer(d3.json, "caCountiesTopo.json") 
     .defer(d3.csv, "wages.csv")
     .defer(d3.csv, "example_data.csv")
     .defer(d3.csv, "transport.csv")
     .await(ready);   
-//var county_data = [];
-//console.log(d3.json, "caCountiesTopo.json")
-//d3.csv("wages.csv", function(data) {
-//    data.forEach(function(d) {
-//    d.id= d.id 
-//    d.area = +d.area;
-//    d["Annual Average Pay"] = +d["Annual Average Pay"];
-//    var county ={FIPS:d.FIPS,name:d.Area,anul_wage:d["Annual Average Pay"]}  
-//    county_data.push(county)
-//  });
-//  console.log(data);
-    //    var circle ={x:x,y:y,sat:sat,light:light}
 
-//d3.csv("wages.csv", function(d) {
-//  return {
-//    FIPS : d.FIPS,
-//    name : d.Area,
-//    anul_wage : +d["Annual Average Pay"]
-//  };
-//}, function(data) {
-//  console.log(data);
-//});    
-//    
     
 var flag = 0;
  var color = d3.scaleThreshold()
@@ -157,20 +137,8 @@ var commute_data=[];
 var all_points=[]; 
 var county_modes=[];
 
-//var popal={};
-//     popal.name= "bab"
-//    popal.pop=900;
     
-//    	svg.append("rect")
-//        .attr("x", 120)
-//		.attr("y", 200)
-//        .attr("fill","none") 
-//        .attr("stroke", "black")
-//		.attr("height", 10)
-//        .attr("width", 10)
-//        .style("text", function(d){ return "Home"});
-
-            
+   
 function ready(error, name, wages, example_data, transport) {
     wages.forEach(function(d){
         county_data[d.id] = +d.annual_wage
@@ -205,24 +173,18 @@ transport.forEach(function(d){
      county.x=105
      county.y=209
      commute_data.push(county);
-//     console.log(commute_data)
-    //commute_data[d["R County Name"]]=county;
-    //commute_data[d["R County Name"]] = +d["Workers in Commuting Flow"]
 
-     //console.log(d["R County Name"])
-        //commute_data[d.id] = +d.workers_in
     }) 
     
     commute_data.forEach(function(d){
-
       for(i=0;i<d.Napa/1000;i++){
           var point={}
           point.origin=d.name
           point.dest="Napa"
           point.x1 = 0
           point.y1 = 0
-          point.x2=50
-          point.y2=190
+          point.x2=40
+          point.y2=180
           point.color="#089D9F"
           all_points.push(point);
       }
@@ -232,8 +194,8 @@ transport.forEach(function(d){
           point.dest="Sonoma"
           point.x1 = 0
           point.y1 = 0
-          point.x2=68
-          point.y2=195
+          point.x2=63
+          point.y2=185
           point.color="#D2A41F"    
           all_points.push(point);
       }
@@ -243,8 +205,8 @@ transport.forEach(function(d){
           point.dest="Marin"
           point.x1 = 0
           point.y1 = 0
-          point.x2=50
-          point.y2=200  
+          point.x2=40
+          point.y2=206  
           point.color="#D80934" 
           all_points.push(point)
       }
@@ -255,7 +217,7 @@ transport.forEach(function(d){
           point.x1 = 0
           point.y1 = 0
           point.x2=40
-          point.y2=210  
+          point.y2=240  
           point.color="#9F0D74" 
           all_points.push(point)
       }
@@ -265,8 +227,8 @@ transport.forEach(function(d){
           point.dest="San Francisco"
           point.x1 = 0
           point.y1 = 0
-          point.x2=50
-          point.y2=230 
+          point.x2=45
+          point.y2=225 
           point.color="#1FD26F"     
           all_points.push(point)
       }
@@ -277,7 +239,7 @@ transport.forEach(function(d){
           point.x1 = 0
           point.y1 = 0
           point.x2=70
-          point.y2=245
+          point.y2=243
           point.color="#166FD8"       
           all_points.push(point)
       }
@@ -306,69 +268,57 @@ transport.forEach(function(d){
        
     })   
     
-    
     all_points.forEach(function(d){
         if (d.origin == "Napa County")
             {
-                d.x1 = 50
-                d.y1 = 190
+                d.x1 = 40
+                d.y1 = 180
                 d.color="#089D9F"
             }        
         if (d.origin == "Sonoma County")
             {
-                d.x1 = 68
-                d.y1 = 195
+                d.x1 = 63
+                d.y1 = 185
                 d.color="#D2A41F"    
-
             }
         if (d.origin == "San Mateo County")
             {
-                d.x1 = 40
-                d.y1 = 250
+                d.x1 = 45
+                d.y1 = 240
                 d.color="#9F0D74" 
-
             }
         if (d.origin == "San Francisco County")
             {
-                d.x1 = 50
-                d.y1 = 230
+                d.x1 = 45
+                d.y1 = 225
                 d.color="#1FD26F"     
-
             }
         if (d.origin == "Contra Costa County")
             {
                 d.x1 = 70
-                d.y1 = 245
+                d.y1 = 243
                 d.color="#166FD8"         
-
             }
         if (d.origin == "Alameda County")
             {
                 d.x1 = 70
                 d.y1 = 225
                 d.color="#D2631D"        
-
             }
         if (d.origin == "Santa Clara County")
             {
                 d.x1 = 70
                 d.y1 = 260
                 d.color="#0BAFD2"        
-
             }
         if (d.origin == "Marin County")
             {
-                d.x1 = 50
-                d.y1 = 200
+                d.x1 = 40
+                d.y1 = 206
                 d.color="#D80934"  
-
             }
     })
-      
-    
-
- //   console.log(all_points)
-      
+          
     
   if (error) throw error;
      svg.append("g")
@@ -384,8 +334,8 @@ transport.forEach(function(d){
          }
          return "grey";
      })
-      .style("stroke", "black")
-      .on("click", showchart);
+      .style("stroke", "black");
+     
     
     var datal = [{x: 50, y: 500}, {x: 200, y: 200}, {x: 300, y: 300}]
 
@@ -396,112 +346,14 @@ transport.forEach(function(d){
         .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
 		.attr("cy",function(d) { return d.y2+Math.floor(Math.random() * 8) })
 		.attr("r", "1px")
-        .attr("opacity",.35)
+        .attr("opacity",.2)
 		.attr("fill", function(d) { return d.color })
-    
-        var g = svg.append("g");
-
-//Zoie: bind data, might not be neccesary
-/*d3.json("caCountiesTopo.json", function(error, us) {
-  g.selectAll("path")
-      .data(topojson.features(us, us.features.subunits).geometries)
-    .enter().append("path")
-      .attr("d", path)
-      .attr("class", "feature")
-      .on("click", click);
-
-  g.append("path")
-      .datum(topojson.mesh(us, us.features.subunits, function(a, b) { return a !== b; }))
-      .attr("class", "mesh")
-      .attr("d", path);
-}); */
-
-
-
-function showchart(d)
-{
-   
-//   if (active === d) return reset();
-  g.selectAll(".active").classed("active", false);
-  d3.select(this).classed("active", active = d);
-
-  var b = path.bounds(d);
-  console.log(b);
-  g.transition().duration(750).attr("transform",
-      "translate(" + projection.translate() + ")"
-      + "scale(" + .95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height) + ")"
-      + "translate(" + -(b[1][0] + b[0][0]) / 2 + "," + -(b[1][1] + b[0][1]) / 2 + ")");
-      svg
-        .append("rect")
-//        .attr("transform", "translate(" + mouse[0] + "," + mouse[1] + ")scale(0)")
-        .attr("x", b[0][0])
-        .attr("y", b[0][1])
-        .attr("height", 10)
-        .attr("width", 10)
-        .attr("fill", "#039BE5")
-        .attr("stroke", "#039BE5")
-        .attr("stroke-width", "1px")
-//        .remove();
-      
 }
 
-function piechart(info){
-    
-var arc = g.selectAll(".arc")
-    .data(pie(info))
-    .enter().append("g")
-      .attr("class", "arc");
-
-  arc.append("path")
-      .attr("d", pathp)
-      .style("fill", function (d){
-     var y=d.data
-      return colorpie(y.sum); 
- })
-    ;
-
-  arc.append("text")
-      .attr("transform", function(d) { return "translate(" + labelp.centroid(d) + ")"; })
-      .attr("dy", "0.25em")
-      .text(function(d) { 
-      var y=d.data
-      return y.type; });
-
-    arc.append("text")
-      .attr("transform", "translate(0 70)")
-      .attr("dy", "0.25em")
-      .text(function(d) { 
-      var y=d.data    
-      return y.title; });
-            
-    
-    
-    }
-
-//     svg.on("click", function () {
-//     var mouse = d3.mouse(this);
-// //        console.log(mouse[0], mouse[1])
-//     svg
-//         .append("rect")
-// //        .attr("transform", "translate(" + mouse[0] + "," + mouse[1] + ")scale(0)")
-//         .attr("x", mouse[0])
-//         .attr("y", mouse[1])
-//         .attr("height", 10)
-//         .attr("width", 10)
-//         .attr("fill", "#039BE5")
-//         .attr("stroke", "#039BE5")
-//         .attr("stroke-width", "1px")
-// //        .remove();
-    
-// })
-}
-           
-
-
-
+//changing button labels and commuter movement
 function Commute (){
         
-    el.value = "Home";
+    lab.value = "Home";
     if(flag == 1)
     {
         Home()    
@@ -521,13 +373,13 @@ function Commute (){
 
     
     function Home (){
-        el.value = "Work"
+        lab.value = "Work"
         svg.selectAll("circle")
             .transition().delay(500).duration(500) 
             .attr("cx", function(d) {return d.x2+Math.floor(Math.random() * 8); } )
             .attr("cy", function(d) {return d.y2+Math.floor(Math.random() * 8); } )   
     
-}
+} 
     
 var legendVals = [ "Napa", "Sonoma", "Marin", "San Mateo", "San Francisco","Contra Costa","Alameda","Santa Clara"] ;
 var lcolor =["#089D9F", "#D2A41F", "#D80934","#9F0D74","#1FD26F","#166FD8","#D2631D","#0BAFD2"];
@@ -538,8 +390,6 @@ var lcolor =["#089D9F", "#D2A41F", "#D80934","#9F0D74","#1FD26F","#166FD8","#D26
 var legendVals1 = d3.scaleOrdinal()
             .domain(legendVals)
             .range(["#1F77B4", "#FF7F0E", "#2CA02C"]);
-
-
  var clegend = svgLegned3.selectAll('#svg2')
             .data(legendVals1.domain())
             .enter().append('g')
@@ -563,7 +413,6 @@ var legendVals1 = d3.scaleOrdinal()
         clegend.append('text')
             .attr("x", 20)
             .attr("y", 15)
-        //.attr("dy", ".35em")
         .text(function (d, i) {
             return d
         })
@@ -571,36 +420,29 @@ var legendVals1 = d3.scaleOrdinal()
             .style("text-anchor", "start")
             .style("font-size", 20)
             .style("font-family", "roboto")
-//40000,60000,80000,100000,120000]
 var legendVals = [ "40000", "60000", "80000", "100000", "120000",">120000"] ;
 var wcolor =["#D3FFA0", "#BEFA78","#FFEB8B","#FFDE57","#FFAFA6","#FF7A8C"];
-// var svg = d3.select("svg");
-// var linear = d3.scaleLinear()
-//   .domain([0,12000])
-//   .range(wcolor);
+
 var svgLegned4 = d3.select("#svg3").append("svg")
             .attr("width", 2000).attr("height", height)
     
 var legendVals2 = d3.scaleOrdinal()
             .domain(legendVals)
             .range(["#1F77B4", "#FF7F0E", "#2CA02C"]);
-
-
  var wlegend = svgLegned4.selectAll('#svg3')
             .data(legendVals2.domain())
             .enter().append('g')
             .attr("class", "legends4")
             .attr("transform", function (d, i) {
             {
-                return "translate(" + i * 100 + ",10)"
+                return "translate(" + i * 120 + ",10)"
             }
            
         })
-
         wlegend.append('rect')
             .attr("x", 0)
             .attr("y", 0)
-            .attr("width", 90)
+            .attr("width", 115)
             .attr("height", 15)
             .style("fill", function (d, i) {
             return wcolor[i]
@@ -610,50 +452,13 @@ var legendVals2 = d3.scaleOrdinal()
         wlegend.append('text')
             .attr("x", 0)
             .attr("y", 50)
-        //.attr("dy", ".35em")
-        .text(function (d, i) {
+            .text(function (d, i) {
             return d
         })
             .attr("class", "textselected")
             .style("text-anchor", "start")
             .style("font-size", 20)
             .style("font-family", "roboto")
-
-
-// svg3.append("g")
-//   .attr("class", "legendLinear")
-//   .attr("transform", "translate(20,20)");
-
-// var legendLinear = d3.legendColor()
-//   .shapeWidth(30)
-//   .cells(6)
-//   .orient('horizontal')
-//   .scale(linear);
-
-// svg.select(".legendLinear")
-//   .call(legendLinear);
-          
-// Color legend.
-// 
-
-
-// Color legend.
-// var colorScale = d3.scaleQuantize()
-//   .domain([ 1, 10 ])
-//   .range(["#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","#74c476","#41ab5d","#238b45","#006d2c","#00441b"]);
-
-// var colorLegend = d3.legendColor()
-//   .labelFormat(d3.format(".0f"))
-//   .scale(colorScale)
-//   .shapePadding(5)
-//   .shapeWidth(50)
-//   .shapeHeight(20)
-//   .labelOffset(12);
-
-// svg3.append("g")
-//   .attr("transform", "translate(352, 60)")
-//   .call(colorLegend);
-    
 </script>        
 </body>    
 </html>
