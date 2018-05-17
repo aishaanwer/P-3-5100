@@ -3,8 +3,6 @@ library(lubridate)
 library(dplyr)
 library(reshape2)
 
-
-
 #read the csv files
 travel_mode <- read_csv("travel.csv")   #reading the commute files
 annual_wage <- read_csv("avgwage.csv")  #reading the wage file
@@ -68,9 +66,5 @@ annual_wage <- annual_wage%>%
 #Ordering Columns in wage dataset
 
 travel_mode <- recast(travel_mode, id.var="ID", ID~value)
-
-#
-#travel_mode <- cbind(travel_mode, annual_wage, by.x = "County FIPS Code", by.y ="Cnty", all=FALSE)
-
 write.csv(travel_mode, file = "trave.csv", row.names = F)
 write.csv(annual_wage, file = "wages.csv", row.names = F)
