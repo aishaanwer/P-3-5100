@@ -18,7 +18,7 @@ font-family: open sans;
 </head>    
 <body>
         <div id="container">
-            <h1><center><font size="8">Commuting at the Bay</font></center></h1>
+            <h1><center><font size="8">Commuting at the Bay Area</font></center></h1>
             <div id="bay-area" class="row">
                 <div id="controls">
                     <p><center><font size="6">
@@ -26,11 +26,8 @@ font-family: open sans;
 
                         </font></center>
                     </p>
-                    <p style="margin-top:-5px">
-                        place holder
-                        
-                    </p>
-                    <a id="team-control" style="display: inline-block;vertical-align: top; color: white; ">Commute<br></a>
+                    
+                   
                      <div id="option">
             <input id = "cButton"
                    name="updateButton" 
@@ -48,6 +45,7 @@ font-family: open sans;
                 <br>
             </div>
         </div>
+    <div class ="clegend"></div>
 </body>
 
     <title>INFO 3300 - Data-driven Web Applications</title>
@@ -57,6 +55,7 @@ font-family: open sans;
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
 
 <style>
     
@@ -68,9 +67,10 @@ button#cButton {
 }
     
     .footer{ 
-       position: fixed;     
-       text-align: center;    
-       bottom: 0px; 
+       margin-top:100px;
+        position:fixed;   
+       text-align: right;    
+       bottom: -5px; 
        width: 100%;
    } 
     path {
@@ -85,12 +85,13 @@ button#cButton {
     
     
 <svg  height="700" width="700"  viewbox="5 155 120 140" > </svg>
-<svg  id="svg2" height="300" width="200"  > </svg>
-
+<svg  id="svg2" height="200" width="200"  > </svg>
+<svg id="svg3" height="80" width="2000"> </svg>
    
 <script> 
 var width = 200,
-    height = 300;
+    height = 300,
+    active;
 // viewbox="80 110 150 150"
 
 var el = document.getElementById('cButton');
@@ -168,9 +169,8 @@ var county_modes=[];
 //		.attr("height", 10)
 //        .attr("width", 10)
 //        .style("text", function(d){ return "Home"});
-    
-    
-   
+
+            
 function ready(error, name, wages, example_data, transport) {
     wages.forEach(function(d){
         county_data[d.id] = +d.annual_wage
@@ -384,8 +384,8 @@ transport.forEach(function(d){
          }
          return "grey";
      })
-      .style("stroke", "black");
-     
+      .style("stroke", "black")
+      .on("click", showchart);
     
     var datal = [{x: 50, y: 500}, {x: 200, y: 200}, {x: 300, y: 300}]
 
@@ -399,23 +399,101 @@ transport.forEach(function(d){
         .attr("opacity",.35)
 		.attr("fill", function(d) { return d.color })
     
-    
-    svg.on("click", function () {
-    var mouse = d3.mouse(this);
-//        console.log(mouse[0], mouse[1])
-    svg
+        var g = svg.append("g");
+
+//Zoie: bind data, might not be neccesary
+/*d3.json("caCountiesTopo.json", function(error, us) {
+  g.selectAll("path")
+      .data(topojson.features(us, us.features.subunits).geometries)
+    .enter().append("path")
+      .attr("d", path)
+      .attr("class", "feature")
+      .on("click", click);
+
+  g.append("path")
+      .datum(topojson.mesh(us, us.features.subunits, function(a, b) { return a !== b; }))
+      .attr("class", "mesh")
+      .attr("d", path);
+}); */
+
+
+
+function showchart(d)
+{
+   
+//   if (active === d) return reset();
+  g.selectAll(".active").classed("active", false);
+  d3.select(this).classed("active", active = d);
+
+  var b = path.bounds(d);
+  console.log(b);
+  g.transition().duration(750).attr("transform",
+      "translate(" + projection.translate() + ")"
+      + "scale(" + .95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height) + ")"
+      + "translate(" + -(b[1][0] + b[0][0]) / 2 + "," + -(b[1][1] + b[0][1]) / 2 + ")");
+      svg
         .append("rect")
 //        .attr("transform", "translate(" + mouse[0] + "," + mouse[1] + ")scale(0)")
-        .attr("x", mouse[0])
-        .attr("y", mouse[1])
+        .attr("x", b[0][0])
+        .attr("y", b[0][1])
         .attr("height", 10)
         .attr("width", 10)
         .attr("fill", "#039BE5")
         .attr("stroke", "#039BE5")
         .attr("stroke-width", "1px")
 //        .remove();
+      
+}
+
+function piechart(info){
     
-})
+var arc = g.selectAll(".arc")
+    .data(pie(info))
+    .enter().append("g")
+      .attr("class", "arc");
+
+  arc.append("path")
+      .attr("d", pathp)
+      .style("fill", function (d){
+     var y=d.data
+      return colorpie(y.sum); 
+ })
+    ;
+
+  arc.append("text")
+      .attr("transform", function(d) { return "translate(" + labelp.centroid(d) + ")"; })
+      .attr("dy", "0.25em")
+      .text(function(d) { 
+      var y=d.data
+      return y.type; });
+
+    arc.append("text")
+      .attr("transform", "translate(0 70)")
+      .attr("dy", "0.25em")
+      .text(function(d) { 
+      var y=d.data    
+      return y.title; });
+            
+    
+    
+    }
+
+//     svg.on("click", function () {
+//     var mouse = d3.mouse(this);
+// //        console.log(mouse[0], mouse[1])
+//     svg
+//         .append("rect")
+// //        .attr("transform", "translate(" + mouse[0] + "," + mouse[1] + ")scale(0)")
+//         .attr("x", mouse[0])
+//         .attr("y", mouse[1])
+//         .attr("height", 10)
+//         .attr("width", 10)
+//         .attr("fill", "#039BE5")
+//         .attr("stroke", "#039BE5")
+//         .attr("stroke-width", "1px")
+// //        .remove();
+    
+// })
 }
            
 
@@ -451,9 +529,130 @@ function Commute (){
     
 }
     
+var legendVals = [ "Napa", "Sonoma", "Marin", "San Mateo", "San Francisco","Contra Costa","Alameda","Santa Clara"] ;
+var lcolor =["#089D9F", "#D2A41F", "#D80934","#9F0D74","#1FD26F","#166FD8","#D2631D","#0BAFD2"];
+        
+        var svgLegned3 = d3.select("#svg2").append("svg")
+            .attr("width", width).attr("height", height)
+    
+var legendVals1 = d3.scaleOrdinal()
+            .domain(legendVals)
+            .range(["#1F77B4", "#FF7F0E", "#2CA02C"]);
 
 
+ var clegend = svgLegned3.selectAll('#svg2')
+            .data(legendVals1.domain())
+            .enter().append('g')
+            .attr("class", "legends3")
+            .attr("transform", function (d, i) {
+            {
+                return "translate(10," + i * 25 + ")"
+            }
+        })
+        
+        clegend.append('rect')
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 15)
+            .attr("height", 15)
+            .style("fill", function (d, i) {
+            return lcolor[i]
+         
+        })
+        
+        clegend.append('text')
+            .attr("x", 20)
+            .attr("y", 15)
+        //.attr("dy", ".35em")
+        .text(function (d, i) {
+            return d
+        })
+            .attr("class", "textselected")
+            .style("text-anchor", "start")
+            .style("font-size", 20)
+            .style("font-family", "roboto")
+//40000,60000,80000,100000,120000]
+var legendVals = [ "40000", "60000", "80000", "100000", "120000",">120000"] ;
+var wcolor =["#D3FFA0", "#BEFA78","#FFEB8B","#FFDE57","#FFAFA6","#FF7A8C"];
+// var svg = d3.select("svg");
+// var linear = d3.scaleLinear()
+//   .domain([0,12000])
+//   .range(wcolor);
+var svgLegned4 = d3.select("#svg3").append("svg")
+            .attr("width", 2000).attr("height", height)
+    
+var legendVals2 = d3.scaleOrdinal()
+            .domain(legendVals)
+            .range(["#1F77B4", "#FF7F0E", "#2CA02C"]);
 
+
+ var wlegend = svgLegned4.selectAll('#svg3')
+            .data(legendVals2.domain())
+            .enter().append('g')
+            .attr("class", "legends4")
+            .attr("transform", function (d, i) {
+            {
+                return "translate(" + i * 100 + ",10)"
+            }
+           
+        })
+
+        wlegend.append('rect')
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 90)
+            .attr("height", 15)
+            .style("fill", function (d, i) {
+            return wcolor[i]
+         
+        })
+        
+        wlegend.append('text')
+            .attr("x", 0)
+            .attr("y", 50)
+        //.attr("dy", ".35em")
+        .text(function (d, i) {
+            return d
+        })
+            .attr("class", "textselected")
+            .style("text-anchor", "start")
+            .style("font-size", 20)
+            .style("font-family", "roboto")
+
+
+// svg3.append("g")
+//   .attr("class", "legendLinear")
+//   .attr("transform", "translate(20,20)");
+
+// var legendLinear = d3.legendColor()
+//   .shapeWidth(30)
+//   .cells(6)
+//   .orient('horizontal')
+//   .scale(linear);
+
+// svg.select(".legendLinear")
+//   .call(legendLinear);
+          
+// Color legend.
+// 
+
+
+// Color legend.
+// var colorScale = d3.scaleQuantize()
+//   .domain([ 1, 10 ])
+//   .range(["#f7fcf5","#e5f5e0","#c7e9c0","#a1d99b","#74c476","#41ab5d","#238b45","#006d2c","#00441b"]);
+
+// var colorLegend = d3.legendColor()
+//   .labelFormat(d3.format(".0f"))
+//   .scale(colorScale)
+//   .shapePadding(5)
+//   .shapeWidth(50)
+//   .shapeHeight(20)
+//   .labelOffset(12);
+
+// svg3.append("g")
+//   .attr("transform", "translate(352, 60)")
+//   .call(colorLegend);
     
 </script>        
 </body>    
